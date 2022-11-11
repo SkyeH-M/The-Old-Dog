@@ -12,34 +12,19 @@ body {
   position: relative;
 }
 
-.top-container {
-  width: 100%;
-  display: flex;
-  text-align: center;
-    align-content: space-between;
-}
-
 .title-text {
-  height: 313px;
-  width: 473px;
-  margin-top: 50px;
-  margin-left: 175px;
-  margin-right: 125px;
-  float: right;
+height: 300px;
+width: 500px;
+display: flex;
+justify-content: center;
+margin-top: 5%;
 }
 
 .logo {
-  max-width: 100%;
-  max-height: 100%;
-  float: left;
-  margin-left: 75px;
-  margin-top: 50px;
-}
-
-.logo-div {
-  height: 300px;
-  width: 300px;
-  float: left;
+height: 250px;
+width: 200px;
+margin-left: 10%;
+margin-top: 10%;
 }
 
 .nav-bar a:link {
@@ -53,63 +38,46 @@ body {
 }
 
 .active {
-  border-bottom: 1px solid #244b2c;
   text-decoration: underline !important;
-
 }
 
 p {
 padding: 0 20px 0 20px;
+font-size: 13px;
 }
 
 /* Image of bookshelf */
 .bookshop-opening-img {
-  height: 400px;
+  height: 395px;
   width: 400px;
-  float: right;
-  margin-left: 100px;
+  margin-top: 3%;
 }
 
 /* div container for bookshelf image */
-.bookshop-opening-div {
-  margin-top: 3%;
-  width: 50%;
-  margin-right: 200px;
-}
 
-/* Opening hours content */
+
+/* Opening hours text */
 .opening-hours-text {
   margin-top: 3%;
-  width: 30%;
-  float: left;
-  margin-left: 200px;
-  background-color: #B8C6AF;
-  background-color: rgba(184,198,175, .8);
+  font-size: 13px;
+  text-align: center;
 }
 
 /* MAKE IMAGES CIRCULAR ?*/
 
-/* Border surrounding the opening hours content */
+/* Border surrounding the opening hours text */
 .opening-hours-border {
   border: 3px solid #192413;
   height: 394px;
   width: 400px;
+  background-color: #B8C6AF;
+  background-color: rgba(184,198,175, .8);
 }
 
-/* div containing text and image */
-.opening-hours {
-  width: 100%;
-  text-align: center;
-    display: flex;
-    align-content: space-between;
-    margin-bottom: 50px;
+.oh-row {
+  margin-bottom: 50px;
 }
 
-.location-row {
-  width: 100%;
-    display: flex;
-    align-content: space-around;
-}
 
 .map {
 border: 3px solid #192413;
@@ -132,16 +100,13 @@ margin-bottom: 3%;
 h2 {
   margin-bottom: 30px;
   margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
 }
 
 
 footer {
   text-align: center;
-  /*
-  useless?
-  justify-content: flex-end;
-  align-items: center;
-  */
   height: 150px;
   display: block;
   position: fixed;
@@ -167,7 +132,7 @@ footer {
   color: #4d4c4c;
   height: 40px;
   width: 40px;
-  background-color: white;
+  background-color: transparent; /* instead of white as there was overlap on smaller screens */
   position: relative;
 }
 
@@ -180,6 +145,7 @@ footer {
   overflow: hidden;
   text-align: center;
   width: 100%;
+  padding-bottom: 25px;
   /*   position: relative;
 */
 }
@@ -195,23 +161,25 @@ footer {
 
 .nav-bar li a:hover {
   text-decoration: underline;
-}
+}  
 
-.image1 {
-  height: 500px;
-  width: 100%;
-  background: url("https://images.unsplash.com/photo-1533327325824-76bc4e62d560?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80") no-repeat center center;
-  animation-name: image1-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-
-}
-
-.image1-div {
+.image1-container {
   height: 500px;
   width: 100%;
   overflow: hidden;
   position: relative;
+  background: url("https://images.unsplash.com/photo-1533327325824-76bc4e62d560?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80") no-repeat center center;
+  /* Below code provided by CI Bootstrap Whiskey Drop */
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* below code provided by CI Love Running Project */
+  animation-name: image1-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  
 }
 
 @keyframes image1-zoom {
@@ -292,4 +260,33 @@ footer {
   margin-left: 200px;
   background-color: #66735F;
   margin-top: 3%;
+}
+
+/* Media Querries */
+
+@media screen and (max-width: 768px) {
+  .image1-container img {
+    max-height: 150px;
+    height: 150px;
+    width: 100%;
+  }
+
+  .title-text {
+    height: 185px;
+    width: 275px;
+    margin-top: 40px;
+  }
+
+  .logo {
+    height: 125px;
+width: 100px;
+margin-top: 25%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    height: 100px;
+    width: 75px;
+  }
 }
