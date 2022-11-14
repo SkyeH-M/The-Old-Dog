@@ -17,9 +17,8 @@ body {
 .title-text {
 height: 300px;
 width: 500px;
-display: flex;
-justify-content: center;
 margin-top: 5%;
+margin-right: 35%;
 }
 
 .logo {
@@ -28,6 +27,7 @@ width: 200px;
 margin-left: 10%;
 margin-top: 10%;
 }
+
 
 .nav-bar a:link {
   color: #244b2c;
@@ -48,11 +48,16 @@ padding: 0 20px 0 20px;
 font-size: 13px;
 }
 
+.row {
+  display: flex;
+}
+
 /* Image of bookshelf */
 .bookshop-opening-img {
   height: 395px;
   width: 400px;
   margin-top: 3%;
+  
 }
 
 /* div container for bookshelf image */
@@ -63,6 +68,7 @@ font-size: 13px;
   margin-top: 3%;
   font-size: 13px;
   text-align: center;
+  
 }
 
 /* MAKE IMAGES CIRCULAR ?*/
@@ -281,6 +287,10 @@ footer {
     height: 125px;
 width: 100px;
 margin-top: 25%;
+  }
+
+  .nav-bar a {
+    font-size: 0.75 rem !important;
   }
 }
 
