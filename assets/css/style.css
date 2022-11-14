@@ -315,8 +315,13 @@ margin-top: 25%;
   margin-top: 150px;
   color: #fff;
   background-color: rgba(77,76,76,0.7);
-  max-width: 400px;
+  width: 700px;
+  height: 700px;
   position: absolute;
-  left: 35%;
+  left: 25%;
+  padding-bottom: 20px;
   padding: 30px;
+  border-radius: 50%;
+  padding-top: 100px;
+  text-align: center;
 }
