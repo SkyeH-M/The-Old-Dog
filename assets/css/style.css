@@ -304,7 +304,7 @@ margin-top: 25%;
 
 /* Form Section */
 
-.form-section {
+#form-section {
   background: url("https://images.unsplash.com/photo-1583526241256-cb18e8635e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center;
   /* background: url(../images/contact-us.jpg); */
   background-size: cover;
@@ -312,18 +312,22 @@ margin-top: 25%;
   height: 900px;
 }
 
-.signup-form {
-  margin-top: 150px;
+#form-section h2 {
+  font-size: 20px;
+}
+
+.contact-form {
+  margin-top: 180px;
   color: #fff;
-  background-color: rgba(77,76,76,0.7);
-  width: 700px;
-  height: 700px;
+  background-color: rgba(102,115,95,0.7);
+  width: 650px;
+  height: 650px;
   position: absolute;
-  left: 25%;
+  left: 28%;
   padding-bottom: 20px;
   padding: 30px;
   border-radius: 50%;
-  padding-top: 100px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -334,4 +338,8 @@ margin-top: 25%;
   font-size: 16px;
   background-color: #244b2c;
   color: white;
+}
+
+#contact-info {
+
 }
