@@ -305,7 +305,8 @@ margin-top: 25%;
 /* Form Section */
 
 .form-section {
-  background: url("https://images.unsplash.com/photo-1583526241256-cb18e8635e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background: url("https://images.unsplash.com/photo-1583526241256-cb18e8635e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center;
+  /* background: url(../images/contact-us.jpg); */
   background-size: cover;
   background-position: center;
   height: 900px;
@@ -324,4 +325,13 @@ margin-top: 25%;
   border-radius: 50%;
   padding-top: 100px;
   text-align: center;
+}
+
+.submit-btn {
+  margin-top: 25px;
+  border-radius: 15%;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #244b2c;
+  color: white;
 }
