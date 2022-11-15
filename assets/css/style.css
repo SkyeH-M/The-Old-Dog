@@ -229,8 +229,9 @@ footer {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: url("https://images.unsplash.com/photo-1580031553994-e504832075ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center;
+  background: url(../images/collections-img-tiny.jpg) no-repeat center center;
   background-size: cover;
+  /* "https://images.unsplash.com/photo-1580031553994-e504832075ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" */
 }
 
 .collections {
@@ -329,7 +330,8 @@ margin-top: 25%;
 /* Form Section */
 
 #form-section {
-  background: url("https://images.unsplash.com/photo-1583526241256-cb18e8635e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center;
+ /* background: url("https://images.unsplash.com/photo-1583526241256-cb18e8635e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center; */
+ background: url(../images/contact-us.jpg);
   /* background: url(../images/contact-us.jpg); */
   background-size: cover;
   background-position: center;
@@ -346,7 +348,7 @@ margin-top: 25%;
 .contact-form {
   margin-top: 180px;
   color: #fff;
-  background-color: rgba(102,115,95,0.7);
+  background-color: rgba(113, 130, 103, 0.7);
   width: 650px;
   height: 650px;
   position: absolute;
@@ -369,10 +371,42 @@ margin-top: 25%;
   color: white;
 }
 
-#contact-info {
+.contact-section {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ladder-img {
+text-align: center;
+background: url(../images/contact-info-img.jpg) no-repeat center center;
+background-size: cover;
+height: 400px;
+width: 100%;
+display: inline-block;
 
 }
 
 #contact-info h1 {
 letter-spacing: 2px;
+margin-bottom: 20px;
+}
+
+#contact-info h2 {
+  margin-bottom: 10px;
+}
+
+.cover-text p {
+  font-size: 16px;
+}
+
+.cover-text {
+  background-color: rgb(246, 237, 217, 0.7);
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: inline-block;
 }
