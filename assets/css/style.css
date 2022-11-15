@@ -371,21 +371,23 @@ margin-top: 25%;
   color: white;
 }
 
-.contact-section {
+.contact-section { /* Hero Outer */
   height: 400px;
   width: 100%;
   overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
-.ladder-img {
-text-align: center;
-background: url(../images/contact-info-img.jpg) no-repeat center center;
-background-size: cover;
+.ladder-img { /* hero-image */
+background: url(../images/contact-info-img.jpg) no-repeat center center; 
 height: 400px;
 width: 100%;
-display: inline-block;
-
+background-size: cover;
+position: absolute;
 }
 
 #contact-info h1 {
@@ -397,16 +399,17 @@ margin-bottom: 20px;
   margin-bottom: 10px;
 }
 
-.cover-text p {
-  font-size: 16px;
-}
-
-.cover-text {
+#contact-info { /* Cover text */
   background-color: rgb(246, 237, 217, 0.7);
   height: 350px;
   width: 350px;
   position: absolute;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 20px;
-  display: inline-block;
+  text-align: center;
+  color: black;
+}
+
+#contact-info p {
+  font-size: 16px;
 }
