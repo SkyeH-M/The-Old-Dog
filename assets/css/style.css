@@ -337,13 +337,14 @@ margin-top: 25%;
   .nav-bar a {
     font-size: 0.75 rem !important;
   }
+
 }
 
-@media screen and (max-width: 375px) { /* 480px */
+@media screen and (max-width: 480px) { /* 480px */
   .logo {
     height: 100px;
     width: 75px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
   }
 
@@ -352,6 +353,17 @@ height: 150px;
 width: 200px;
   }
 
+  .contact-form {
+    height: 650px !important;
+    width: 400px !important;
+    border-radius: 10px !important;
+  }
+
+  .contact-form-container {
+    float: left;
+    clear: right;
+    margin-top: -800px;
+  }
 }
 
 /* Form Section */
