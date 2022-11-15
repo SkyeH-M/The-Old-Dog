@@ -18,20 +18,40 @@ body {
 
 }
 
+.container-fluid {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-around;
+}
+
 .title-text {
 height: 300px;
 width: 500px;
 margin-top: 5%;
-margin-right: 35%;
+/* margin-right: 35%; */
 }
 
 .logo {
 height: 250px;
 width: 200px;
-margin-left: 10%;
+/* margin-left: 10%; */
 margin-top: 10%;
+margin-left: -10%;
 }
 
+.col-8 {
+  display: flex;
+  justify-content: center;
+}
+
+.col-4 {
+  display: flex;
+  justify-content: flex-start;
+}
 
 .nav-bar a:link {
   color: #244b2c;
@@ -332,10 +352,14 @@ margin-top: 25%;
 #form-section {
  /* background: url("https://images.unsplash.com/photo-1583526241256-cb18e8635e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center; */
  background: url(../images/contact-us.jpg);
-  /* background: url(../images/contact-us.jpg); */
   background-size: cover;
   background-position: center;
   height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
 }
 
 #form-section h2 {
@@ -371,7 +395,7 @@ margin-top: 25%;
   color: white;
 }
 
-.contact-section { /* Hero Outer */
+.contact-section { 
   height: 400px;
   width: 100%;
   overflow: hidden;
@@ -382,7 +406,7 @@ margin-top: 25%;
   align-content: center;
 }
 
-.ladder-img { /* hero-image */
+.ladder-img { 
 background: url(../images/contact-info-img.jpg) no-repeat center center; 
 height: 400px;
 width: 100%;
@@ -399,7 +423,7 @@ margin-bottom: 20px;
   margin-bottom: 10px;
 }
 
-#contact-info { /* Cover text */
+#contact-info { 
   background-color: rgb(246, 237, 217, 0.7);
   height: 350px;
   width: 350px;
