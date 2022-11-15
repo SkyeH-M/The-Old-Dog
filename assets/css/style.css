@@ -72,9 +72,18 @@ padding: 0 20px 0 20px;
 font-size: 13px;
 }
 
-.row {
+.first-row {
   display: flex;
+  justify-content: space-around;
+ margin-bottom: 3%;
 }
+
+.second-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+}
+
 
 /* Image of bookshelf */
 .bookshop-opening-img {
@@ -92,7 +101,6 @@ font-size: 13px;
   margin-top: 3%;
   font-size: 13px;
   text-align: center;
-  
 }
 
 /* MAKE IMAGES CIRCULAR ?*/
@@ -111,21 +119,13 @@ font-size: 13px;
 border: 3px solid #192413;
 height: 405px;
 width: 405px;
-margin-bottom: 3%;
 }
 
 
 .holding-books {
   height: 400px;
   width: 400px;
-  margin-bottom: 3%;
 }
-/*
-.col-5 {
-  display: flex;
-  justify-content: space-between;
-}
-*/
 
 h1 {
   font-family: 'Libre Baskerville', serif;
@@ -339,10 +339,17 @@ margin-top: 25%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) { /* 480px */
   .logo {
     height: 100px;
     width: 75px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .title-text {
+height: 150px;
+width: 200px;
   }
 
 }
@@ -350,8 +357,8 @@ margin-top: 25%;
 /* Form Section */
 
 #form-section {
- /* background: url("https://images.unsplash.com/photo-1583526241256-cb18e8635e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center; */
- background: url(../images/contact-us.jpg);
+
+ background: url(../images/contact-us.jpg) no-repeat center center;
   background-size: cover;
   background-position: center;
   height: 900px;
