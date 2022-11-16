@@ -409,7 +409,7 @@ width: 200px;
 }
 
 .contact-section { 
-  height: 400px;
+  height: 600px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -421,7 +421,7 @@ width: 200px;
 
 .ladder-img { 
 background: url(../images/contact-info-img.jpg) no-repeat center center; 
-height: 400px;
+height: 600px;
 width: 100%;
 background-size: cover;
 position: absolute;
@@ -437,16 +437,46 @@ margin-bottom: 20px;
 }
 
 #contact-info { 
-  background-color: rgb(246, 237, 217, 0.7);
+  background-color: rgba(246, 237, 217, 0.7);
   height: 350px;
   width: 350px;
   position: absolute;
   padding-top: 30px;
   padding-bottom: 20px;
   text-align: center;
-  color: black;
+  color: #4d4c4c;
 }
 
 #contact-info p {
   font-size: 16px;
+}
+
+/* Thank you page directed to by the form */
+
+.thank-you-message {
+  text-align: center;
+  background-color: rgba(246, 237, 217, 0.7);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #244b2c;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.thank-you-message h1 {
+padding-bottom: 20px;
+letter-spacing: 2px;
+}
+
+.thank-you-container {
+  background-color: #8E9C86;
+  background: url(../images/park-hill.jpg) no-repeat center center;
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
