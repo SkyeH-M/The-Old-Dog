@@ -362,7 +362,6 @@ width: 200px;
   .contact-form-container {
     float: left;
     clear: right;
-    margin-top: -800px;
   }
 }
 
@@ -374,11 +373,6 @@ width: 200px;
   background-size: cover;
   background-position: center;
   height: 900px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-
 }
 
 #form-section h2 {
@@ -389,7 +383,7 @@ width: 200px;
 }
 
 .contact-form {
-  margin-top: 180px;
+  margin-top: 200px;
   color: #fff;
   background-color: rgba(113, 130, 103, 0.7);
   width: 650px;
