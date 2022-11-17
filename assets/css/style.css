@@ -210,6 +210,11 @@ footer {
   text-align: center;
   height: 150px;
   margin-top: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 
@@ -419,4 +424,23 @@ footer {
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+/* Social Networks */
+
+.social-networks {
+  color: white;
+  text-align: center;
+}
+
+.social-networks i {
+  color: white;
+  text-decoration: none;
+  padding: 40px;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.social-networks li {
+  display: inline;
 }
