@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
 
 
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   min-height: 100vh;
@@ -14,15 +15,10 @@ body {
   color: #4d4c4c;
   position: relative;
   overflow-x: hidden;
-  font-family:'Libre Caslon Text', serif;
+  font-family: 'Libre Caslon Text', serif;
 
 }
 
-/* Useless? .container-fluid {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-*/
 
 .top-container {
   display: flex;
@@ -30,17 +26,16 @@ body {
 }
 
 .title-text {
-height: 300px;
-width: 500px;
-margin-top: 5%;
-/* margin-right: 35%; */
+  height: 300px;
+  width: 500px;
+  margin-top: 5%;
 }
 
 .logo {
-height: 250px;
-width: 200px;
-margin-left: 40px;
-margin-top: 40px;
+  height: 250px;
+  width: 200px;
+  margin-left: 40px;
+  margin-top: 40px;
 }
 
 .col-8 {
@@ -68,38 +63,22 @@ margin-top: 40px;
 }
 
 p {
-padding: 0 20px 0 20px;
-font-size: 13px;
+  padding: 0 20px 0 20px;
+  font-size: 13px;
 }
-/*
-.first-row {
-  display: flex;
-  justify-content: space-around;
- margin-bottom: 3%;
-}
-
-.second-row {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 3%;
-}
-*/
 
 .row {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 
 }
 
 /* Image of bookshelf */
 .bookshop-opening-img {
   height: 395px;
-  width: 400px;  
+  width: 400px;
   margin: 40px;
 }
-
-/* div container for bookshelf image */
-
 
 /* Opening hours text */
 .opening-hours-text {
@@ -107,24 +86,22 @@ justify-content: center;
   text-align: center;
 }
 
-/* MAKE IMAGES CIRCULAR ?*/
-
 /* Border surrounding the opening hours text */
 .opening-hours-border {
   border: 3px solid #192413;
   height: 394px;
   width: 400px;
   background-color: #B8C6AF;
-  background-color: rgba(184,198,175, .8);
+  background-color: rgba(184, 198, 175, .8);
   margin: 40px;
 }
 
 
 .map {
-border: 3px solid #192413;
-height: 405px;
-width: 405px;
-margin: 40px;
+  border: 3px solid #192413;
+  height: 405px;
+  width: 405px;
+  margin: 40px;
 }
 
 
@@ -152,8 +129,6 @@ h3 {
   font-size: 18px;
 }
 
-
-
 .horizontal-rule {
   display: flex;
   width: 100%;
@@ -173,7 +148,8 @@ h3 {
   color: #4d4c4c;
   height: 40px;
   width: 40px;
-  background-color: transparent; /* instead of white as there was overlap on smaller screens */
+  background-color: transparent;
+  /* instead of white as there was overlap on smaller screens */
   position: relative;
 }
 
@@ -181,15 +157,10 @@ h3 {
 .nav-bar {
   font-size: 100%;
   letter-spacing: 3px;
-  /* display: inline-block; removed as per mentor
-  margin: auto;
-  overflow: hidden; */
   text-align: center;
-  /* width: 100%; */
   padding-bottom: 25px;
   font-family: 'Libre Baskerville', serif;
-  /*   position: relative;
-*/
+ 
 }
 
 .nav-bar li {
@@ -203,25 +174,23 @@ h3 {
 
 .nav-bar li a:hover {
   text-decoration: underline;
-}  
+}
 
 .image1-container {
   height: 500px;
-  /* width: 100%;
-  overflow: hidden; */
   position: relative;
   background: url("https://images.unsplash.com/photo-1533327325824-76bc4e62d560?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80") no-repeat center center;
   /* Below code provided by CI Bootstrap Whiskey Drop */
   -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-    /* below code provided by CI Love Running Project */
+  /* below code provided by CI Love Running Project */
   animation-name: image1-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
-  
+
 }
 
 @keyframes image1-zoom {
@@ -241,7 +210,7 @@ footer {
   text-align: center;
   height: 150px;
   margin-top: auto;
-  }
+}
 
 
 /* Our Collections Page */
@@ -263,14 +232,14 @@ footer {
 }
 
 .collection-text {
-text-align: center;
-border: 3px solid #192413;
-background-color: #66735F;
-width: 20%;
-color: white;
-margin: 0 40px 0 0;
-height: 500px;
-width: 356px;
+  text-align: center;
+  border: 3px solid #192413;
+  background-color: #66735F;
+  width: 20%;
+  color: white;
+  margin: 0 40px 0 0;
+  height: 500px;
+  width: 356px;
 }
 
 
@@ -302,8 +271,8 @@ width: 356px;
 
   .logo {
     height: 125px;
-width: 100px;
-margin-top: 25%;
+    width: 100px;
+    margin-top: 25%;
   }
 
   .nav-bar a {
@@ -312,7 +281,9 @@ margin-top: 25%;
 
 }
 
-@media screen and (max-width: 480px) { /* 480px */
+@media screen and (max-width: 480px) {
+
+  /* 480px */
   .logo {
     height: 100px;
     width: 75px;
@@ -321,8 +292,8 @@ margin-top: 25%;
   }
 
   .title-text {
-height: 150px;
-width: 200px;
+    height: 150px;
+    width: 200px;
   }
 
   .contact-form {
@@ -341,7 +312,7 @@ width: 200px;
 
 #form-section {
 
- background: url(../images/contact-us.jpg) no-repeat center center;
+  background: url(../images/contact-us.jpg) no-repeat center center;
   background-size: cover;
   background-position: center;
   height: 900px;
@@ -358,37 +329,20 @@ width: 200px;
 
 }
 
-/* .contact-form {
-  margin-top: 200px;
-  color: #fff;
-  background-color: rgba(113, 130, 103, 0.7);
-  width: 650px;
-  height: 650px;
-  position: absolute;
-  left: 28%;
+.contact-form {
+  color: black;
+  background-color: white;
   padding-bottom: 20px;
   padding: 30px;
-  border-radius: 50%;
   padding-top: 30px;
   text-align: center;
   font-family: 'Libre Caslon Text', serif;
   letter-spacing: 2px;
-}
-*/
-
-.contact-form {
-  color: black;
-    background-color: white;
-    padding-bottom: 20px;
-    padding: 30px;
-    padding-top: 30px;
-    text-align: center;
-    font-family: 'Libre Caslon Text', serif;
-    letter-spacing: 2px;
-    width: 100%; /* Should be width: 50% but that's too narrow ?*/
-    margin: 50px auto;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  /* Should be width: 50% but that's too narrow ?*/
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .submit-btn {
@@ -400,41 +354,35 @@ width: 200px;
   color: white;
 }
 
-.contact-section { 
- /* height: 600px;
-  width: 100%;
-  */
+.contact-section {
   overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  background: url(../images/contact-info-img.jpg) no-repeat center center; 
-height: 600px;
-width: 100%;
-background-size: cover;
+  background: url(../images/contact-info-img.jpg) no-repeat center center;
+  height: 600px;
+  width: 100%;
+  background-size: cover;
 }
 
 #contact-info h1 {
-letter-spacing: 2px;
-margin-bottom: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 #contact-info h2 {
   margin-bottom: 10px;
 }
 
-#contact-info { 
-  /* background-color: rgba(246, 237, 217, 0.7);
-  height: 350px;
-  width: 350px; 
-  /* position: absolute; */
+#contact-info {
   background-color: white;
   text-align: center;
   color: black;
   padding: 40px;
   border-radius: 20px;
+  /* Box-shadow code provided by https://getcssscan.com/css-box-shadow-examples as suggested by mentor */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -446,17 +394,19 @@ margin-bottom: 20px;
 
 .thank-you-message {
   text-align: center;
-  background-color: rgba(246, 237, 217, 0.7);
+  background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #244b2c;
+  color: black;
   padding-left: 30px;
   padding-right: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .thank-you-message h1 {
-padding-bottom: 20px;
-letter-spacing: 2px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
 }
 
 .thank-you-container {
