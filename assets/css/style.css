@@ -345,6 +345,10 @@ width: 200px;
   background-size: cover;
   background-position: center;
   height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 #form-section h2 {
@@ -354,7 +358,7 @@ width: 200px;
 
 }
 
-.contact-form {
+/* .contact-form {
   margin-top: 200px;
   color: #fff;
   background-color: rgba(113, 130, 103, 0.7);
@@ -370,6 +374,22 @@ width: 200px;
   font-family: 'Libre Caslon Text', serif;
   letter-spacing: 2px;
 }
+*/
+
+.contact-form {
+  color: black;
+    background-color: white;
+    padding-bottom: 20px;
+    padding: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Libre Caslon Text', serif;
+    letter-spacing: 2px;
+    width: 100%; /* Should be width: 50% but that's too narrow ?*/
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 .submit-btn {
   margin-top: 25px;
@@ -381,22 +401,19 @@ width: 200px;
 }
 
 .contact-section { 
-  height: 600px;
+ /* height: 600px;
   width: 100%;
+  */
   overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-}
-
-.ladder-img { 
-background: url(../images/contact-info-img.jpg) no-repeat center center; 
+  background: url(../images/contact-info-img.jpg) no-repeat center center; 
 height: 600px;
 width: 100%;
 background-size: cover;
-position: absolute;
 }
 
 #contact-info h1 {
@@ -409,14 +426,16 @@ margin-bottom: 20px;
 }
 
 #contact-info { 
-  background-color: rgba(246, 237, 217, 0.7);
+  /* background-color: rgba(246, 237, 217, 0.7);
   height: 350px;
-  width: 350px;
-  position: absolute;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  width: 350px; 
+  /* position: absolute; */
+  background-color: white;
   text-align: center;
-  color: #4d4c4c;
+  color: black;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #contact-info p {
@@ -446,7 +465,6 @@ letter-spacing: 2px;
   height: 600px;
   width: 100%;
   background-size: cover;
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
