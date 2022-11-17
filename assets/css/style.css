@@ -245,7 +245,6 @@ footer {
 
 
 /* Our Collections Page */
-/* Divs with book info gets darker shades of green as they go down*/
 
 .collections-main-img-container {
   height: 500px;
@@ -258,9 +257,9 @@ footer {
 }
 
 .collection {
-  display: flex;
-  align-items: center;
-  margin: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .collection-text {
@@ -269,49 +268,22 @@ border: 3px solid #192413;
 background-color: #66735F;
 width: 20%;
 color: white;
-margin: 40px;
+margin: 0 40px 0 0;
+height: 500px;
+width: 356px;
 }
 
-/* Delete After styling collections
-.collections {
-  min-height: 240vh;
-  margin-top: 3%;
-}
-*/
 
 .collections img {
   height: 500px;
   width: 356px;
 }
 
-
-/* .collection1 img {
-  float: right;
-  margin-right: 200px;
+.collections {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-*/
-
-
-
-/* .collection2 img {
-  float: left;
-  margin-left: 200px;
-  margin-top: 3%;
-}
-*/
-
-
-
-/* use different background colours? */
-/* .collection3 img {
-  float: right;
-  margin-right: 200px;
-  margin-top: 3%;
-}
-*/
-
-
-
 
 /* Media Querries */
 
