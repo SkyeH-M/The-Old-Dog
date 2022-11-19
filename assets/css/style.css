@@ -311,6 +311,11 @@ footer {
     float: left;
     clear: right;
   }
+  
+  .social-networks i {
+    padding: 20px;
+  font-size: 30px !important;
+  }
 }
 
 /* Form Section */
@@ -460,7 +465,7 @@ footer {
 }
 
 .social-networks li {
-  display: inline;
+  display: inline-block;
 }
 
 /* Social networks hover effect base provided by Ian Lunn */
