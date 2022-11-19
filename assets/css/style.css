@@ -185,7 +185,7 @@ h3 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;*/
-  
+
   background-size: cover;
 
   /* below code provided by CI Love Running Project */
@@ -373,7 +373,7 @@ footer {
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
+  /* -moz-osx-font-smoothing: grayscale; */
   transition-duration: 0.3s;
   transition-property: transform;
 }
@@ -477,7 +477,7 @@ footer {
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
+  /* -moz-osx-font-smoothing: grayscale; */
   transition-duration: 0.3s;
   transition-property: transform;
 }
