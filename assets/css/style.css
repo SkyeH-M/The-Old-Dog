@@ -256,6 +256,13 @@ footer {
   width: 356px;
 }
 
+.collection-text p {
+margin-top: 20px;
+}
+
+.collection-text h2 {
+  text-decoration: underline;
+}
 
 .collections img {
   height: 500px;
