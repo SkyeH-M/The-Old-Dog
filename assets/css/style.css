@@ -27,7 +27,7 @@ body {
 .title-text {
   height: 300px;
   width: 500px;
-  margin-top: 5%;
+  margin-top: 40px;
 }
 
 .logo {
@@ -47,9 +47,17 @@ body {
   justify-content: center;
 }
 
-.nav-bar a:link {
+/* Nav bar */
+
+#bootstrap-overrides .nav-link {
   color: #244b2c;
   text-decoration: none;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-bar a:visited {
@@ -57,10 +65,34 @@ body {
   color: #244b2c;
 }
 
-.active {
+/* This doesn't work */
+#bootstrap-overrides .nav-item .active {
   text-decoration: underline !important;
 }
 
+#bootstrap-overrides .navbar {
+  font-size: 100%;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-bottom: 25px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#bootstrap-overrides .nav-item {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #4d4c4c;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+#bootstrap-overrides .nav-item a:hover {
+  text-decoration: underline;
+}
+
+
+/* Start of info content */
 p {
   padding: 0 20px 0 20px;
   font-size: 13px;
@@ -152,41 +184,17 @@ h3 {
   position: relative;
 }
 
-
-.nav-bar {
-  font-size: 100%;
-  letter-spacing: 3px;
-  text-align: center;
-  padding-bottom: 25px;
-  font-family: 'Libre Baskerville', serif;
- 
-}
-
-.nav-bar li {
-  margin-right: 30px;
-  text-decoration: none;
-  color: #4d4c4c;
-  list-style-type: none;
-  display: inline-block;
-  font-size: 25px;
-}
-
-.nav-bar li a:hover {
-  text-decoration: underline;
-}
-
 .image1-container {
   height: 500px;
   position: relative;
   background: url("https://images.unsplash.com/photo-1533327325824-76bc4e62d560?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80") no-repeat center center;
+
   /* Below code provided by CI Bootstrap Whiskey Drop */
   /* 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;*/
-
   background-size: cover;
-
   /* below code provided by CI Love Running Project */
   animation-name: image1-zoom;
   animation-duration: 5s;
@@ -281,7 +289,7 @@ footer {
     margin-top: 25%;
   }
 
-  .nav-bar a {
+  .navbar a {
     font-size: 20px;
   }
 
@@ -312,10 +320,20 @@ footer {
     float: left;
     clear: right;
   }
-  
+
   .social-networks i {
     padding: 20px;
-  font-size: 30px !important;
+    font-size: 30px !important;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .navbar {
+    margin-bottom: 20px;
   }
 }
 
