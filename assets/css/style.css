@@ -229,7 +229,7 @@ footer {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: url(../images/collections-img-tiny.jpg) no-repeat center center;
+  background: url(../images/collections-img-tiny.webp) no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: flex-end;
@@ -374,7 +374,7 @@ margin-top: 20px;
 
 #form-section {
 
-  background: url(../images/contact-us.jpg) no-repeat center center;
+  background: url(../images/contact-us.webp) no-repeat center center;
   background-size: cover;
   background-position: center;
   height: 900px;
@@ -441,7 +441,7 @@ margin-top: 20px;
   justify-content: center;
   align-items: center;
   align-content: center;
-  background: url(../images/contact-info-img.jpg) no-repeat center center;
+  background: url(../images/contact-info-img.webp) no-repeat center center;
   height: 600px;
   width: 100%;
   background-size: cover;
