@@ -230,14 +230,34 @@ footer {
 
 /* Our Collections Page */
 
-.collections-main-img-container {
+.main-img-container {
   height: 500px;
   width: 100%;
   overflow: hidden;
   position: relative;
   background: url(../images/collections-img-tiny.jpg) no-repeat center center;
   background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
   /* "https://images.unsplash.com/photo-1580031553994-e504832075ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" */
+}
+
+.visit-us {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  color: black;
+  margin: 30px;
+  text-align: center;
+  
+ 
+}
+
+.visit-us h1 {
+  margin-bottom: 30px;
+  letter-spacing: 2px;
 }
 
 .collection {
@@ -263,6 +283,7 @@ margin-top: 20px;
 
 .collection-text h2 {
   text-decoration: underline;
+  padding-top: 30px;
 }
 
 .collections img {
@@ -342,6 +363,16 @@ margin-top: 20px;
 
   .navbar {
     margin-bottom: 20px;
+  }
+
+  .main-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .visit-us {
+    margin: 20px;
   }
 }
 
