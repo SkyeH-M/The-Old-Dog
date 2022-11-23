@@ -189,12 +189,6 @@ h3 {
   height: 500px;
   position: relative;
   background: url("https://images.unsplash.com/photo-1533327325824-76bc4e62d560?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80") no-repeat center center;
-
-  /* Below code provided by CI Bootstrap Whiskey Drop */
-  /* 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;*/
   background-size: cover;
   /* below code provided by CI Love Running Project */
   animation-name: image1-zoom;
@@ -274,7 +268,7 @@ footer {
   color: white;
   margin: 0 40px 0 0;
   height: 500px;
-  width: 356px;
+  width: 350px;
 }
 
 .collection-text p {
@@ -288,7 +282,7 @@ margin-top: 20px;
 
 .collections img {
   height: 500px;
-  width: 356px;
+  width: 350px;
 }
 
 .collections {
