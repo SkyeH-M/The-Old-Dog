@@ -14,18 +14,18 @@ The Old Dog Bookshop website is designed to give potential customers informative
   * [User Stories](#user-stories)
 
 * Design
-  * Colour Scheme
-  * Typography
-  * Icons and Images
-  * Features
-  * Accessibility
-  * Wireframes
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Icons and Images](#icons-and-images)
+  * [Features](#features)
+  * [Accessibility](#accessibility)
+  * [Wireframes](#wireframes)
 
 * Technologies Used
-  * Languages Used
-  * Frameworks, Libraries & Programs Used
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 
-* Deployment
+* [Deployment](#deployment)
 
 * Testing
   * W3C Validator
@@ -120,6 +120,28 @@ Before beginning work constructing my site I created wireframes of mobile, table
 * [Home page wireframe](./docs/home-wireframe.png)
 * [Our Collections wireframe](./docs/collections-wireframes.png)
 * [Contact Us wireframe](./docs/contact-wireframes.png)
+
+## Technologies Used
+
+### Languages Used
+* HTML, and CSS were used to complete this project
+
+### Frameworks, Libraries, and Programs Used
+* Adobe XD was used to create Wireframes
+* [Birme](https://www.birme.net/) was used to reformat images to a webp
+* Bootstrap Version 4.0 was used to create a responsive Navbar and collapsable hamburger menu for mobile
+* [Favicon](https://favicon.io/) was used to create a browser tab icon
+* [Font Awesome](https://fontawesome.com/) was used for all icons on the pages
+* Github was used to store all files for this website
+* Gitpod was used to create and edit all original code
+* Google Chrome Developer Tools was used for debugging and testing with Lighthouse
+* [Google Fonts](https://fonts.google.com/) was used to import both fonts for use on the site
+* [Tech Sini](https://techsini.com/multi-mockup/index.php) was used to create a multi device website mockup to demonstrate responsivity
+* [Tiny Png](https://tinypng.com/) was used to resize image files to help the browser load pages quicker
+
+## Deployment
+
+
 
 
 
