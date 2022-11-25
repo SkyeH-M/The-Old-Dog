@@ -29,6 +29,7 @@ body {
   height: 300px;
   width: 500px;
   margin-top: 40px;
+  padding-left: 30px;
 }
 
 #logo {
@@ -37,7 +38,7 @@ body {
   margin-left: 40px;
   margin-top: 40px;
 }
-
+/*
 .col-8 {
   display: flex;
   justify-content: center;
@@ -47,7 +48,7 @@ body {
   display: flex;
   justify-content: center;
 }
-
+*/
 /* Nav bar */
 
 #bootstrap-overrides .nav-link {
