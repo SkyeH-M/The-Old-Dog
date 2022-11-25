@@ -68,7 +68,7 @@ body {
 }
 
 /* This doesn't work */
-#bootstrap-overrides .nav-item .active {
+#bootstrap-overrides .active {
   text-decoration: underline !important;
 }
 
@@ -235,8 +235,6 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-
-  /* "https://images.unsplash.com/photo-1580031553994-e504832075ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" */
 }
 
 .visit-us {
