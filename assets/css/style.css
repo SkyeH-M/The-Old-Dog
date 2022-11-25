@@ -52,7 +52,7 @@ body {
 /* Nav bar */
 
 #bootstrap-overrides .nav-link {
-  color: #244b2c;
+  color: #244c2c;
   text-decoration: none;
 }
 
@@ -67,7 +67,6 @@ body {
   color: #244b2c;
 }
 
-/* This doesn't work */
 #bootstrap-overrides .active {
   text-decoration: underline !important;
 }
@@ -210,7 +209,7 @@ h3 {
 
 footer {
   display: block;
-  background-color: #192413;
+  background-color: rgb(25, 36, 19);
   color: white;
   text-align: center;
   height: 150px;
@@ -262,7 +261,7 @@ footer {
 .collection-text {
   text-align: center;
   border: 3px solid #192413;
-  background-color: #66735F;
+  background-color: rgb(102, 115, 95);
   width: 20%;
   color: white;
   margin: 0 40px 0 0;
@@ -411,7 +410,7 @@ margin-top: 20px;
   border-radius: 15%;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #244b2c;
+  background-color: #244c2c;
   color: white;
 }
 
@@ -490,7 +489,7 @@ margin-top: 20px;
 }
 
 .thank-you-container {
-  background-color: #8E9C86;
+  background-color: white;
   background: url(../images/park-hill.jpg) no-repeat center center;
   height: 600px;
   width: 100%;
@@ -555,5 +554,5 @@ margin-top: 20px;
 }
 
 #myBtn:hover {
-  background-color: #8E9C86; /* Add a dark-grey background on hover */
+  background-color: #66735F; /* Add a dark-grey background on hover */
 }
