@@ -505,6 +505,9 @@ margin-top: 20px;
   align-content: center;
 }
 
+.thank-you-container h2 {
+  font-size: 18px;
+}
 /* Social Networks */
 
 .social-networks {

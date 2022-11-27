@@ -166,7 +166,7 @@ The Old Dog website is deployed using Github Pages, this was done by:
 ### How to Fork
 
 1. Locate the main page of The-Old-Dog repository
-2. Click the fork button in the top right of the screen, between watch, and star buttons
+2. Click the fork button in the top right of the screen, between the watch, and star buttons
 
 ## Testing
 
