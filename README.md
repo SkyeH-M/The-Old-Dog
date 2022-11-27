@@ -8,12 +8,12 @@ The Old Dog Bookshop website is designed to give potential customers informative
 
 ## Contents
 
-* User Experience (UX)
+* [User Experience (UX)](#user-experience-ux)
   * [Project Goals](#project-goals)
   * [Developer and Business Goals](#developer-and-business-goals)
   * [User Stories](#user-stories)
 
-* Design
+* [Design](#design)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
   * [Icons and Images](#icons-and-images)
@@ -21,16 +21,20 @@ The Old Dog Bookshop website is designed to give potential customers informative
   * [Accessibility](#accessibility)
   * [Wireframes](#wireframes)
 
-* Technologies Used
+* [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 
 * [Deployment](#deployment)
 
-* Testing
-  * W3C Validator
+* [Testing](#testing)
+  * Automated Testing
+    * W3C Validator
+    * Wave
+    * Lighthouse
+
+  * Manual Testing
   * Bugs
-  * Lighthouse
 
 * Credits
   * Code Sections Used
@@ -140,6 +144,53 @@ Before beginning work constructing my site I created wireframes of mobile, table
 * [Tiny Png](https://tinypng.com/) was used to resize image files to help the browser load pages quicker
 
 ## Deployment
+
+The Old Dog website is deployed using Github Pages, this was done by:
+
+1. Login to Github
+2. Navigate to the account SkyeH-M, and locate the The-Old-Dog repository
+3. In The-Old-Dog repository click on the Settings tab
+4. In the Code and Automation subheading in the sidebar click on Pages
+5. Under Build and Deployment find the Source section, set the source to deploy from a branch, and set this branch to main, and the folder option to /root 
+6. Click save, wait a few minutes and The Old Dog site is now deployed at the URL displayed
+
+## Local Deployment
+### How to Clone 
+
+1. Locate the main page of The-Old-Dog repository, click the Code button to the left of the green Gitpod button
+2. Copy the URL of the repository, you can click on headings for HTTPS, SSH, and Github CLI to find their individual links
+3. Open your own terminal in your editor and change the current working directory to the location of where you want the cloned directory to be
+4. In the terminal type git clone, and then paste the URL you copied from The-Old-Dog repository page
+5. Press enter to complete
+
+### How to Fork
+
+1. Locate the main page of The-Old-Dog repository
+2. Click the fork button in the top right of the screen, between watch, and star buttons
+
+## Testing
+
+## Automated Testing
+### W3 Nu HTML Validator
+
+The Nu HTML Checker was used on each page of The Old Dog site at multiple stages throughout development, below are the final assessments showing no issues or warnings:
+
+* [Home page score](./docs/html-index.png)
+* [Our Collections page score](./docs/html-collections.png)
+* [Contact Us page score](./docs/html-contact.png)
+* [Thank You page score](./docs/html-thank-you.png)
+
+### W3C CSS Validation Service
+
+The W3C CSS Validation Service has also been used throughout the creation of this site, below is the final assessment showing no errors:
+
+* [CSS Validator Score through direct input](./docs/css-validator.png)
+* [Here](./docs/css-warnings.png) shows the CSS validator warnings which only state that imported style sheets cannot be checked in direct input
+
+### Wave Testing
+
+
+
 
 
 

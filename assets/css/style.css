@@ -105,6 +105,12 @@ p {
 
 }
 
+.row h1 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
 /* Image of bookshelf */
 .bookshop-opening-img {
   height: 395px;
@@ -150,7 +156,6 @@ h1 {
 h2 {
   margin-bottom: 30px;
   margin-top: 20px;
-  font-size: 18px;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
   font-size: 22px;
