@@ -323,7 +323,6 @@ margin-top: 20px;
 
 @media screen and (max-width: 480px) {
 
-  /* 480px */
   #logo {
     height: 100px;
     width: 75px;
@@ -373,6 +372,46 @@ margin-top: 20px;
   }
 }
 
+@media screen and (max-width: 300px) {
+  .social-networks i {
+    padding: 10px;
+    font-size: 20px !important;
+    width: 40px;
+  }
+
+  .bookshop-opening-img {
+    height: 355px;
+    width: 360px;
+  }
+
+  .opening-hours-border {
+    height: 354px;
+    width: 360px;
+  }
+
+  .opening-hours-text {
+    font-size: 11px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+
+  .holding-books {
+    height: 360px;
+    width: 360px;
+  }
+
+  .map {
+    height: 364px;
+  width: 364px;
+  }
+
+  .map iframe {
+    height: 360px;
+  width: 360px;
+  }
+}
 /* Form Section */
 
 #form-section {
