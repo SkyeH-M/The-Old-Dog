@@ -28,18 +28,20 @@ The Old Dog Bookshop website is designed to give potential customers informative
 * [Deployment](#deployment)
 
 * [Testing](#testing)
-  * Automated Testing
-    * W3C Validator
-    * Wave
-    * Lighthouse
+  * [Automated Testing](#automated-testing)
+    * [W3 Nu HTML Validator](#w3-nu-html-validator)
+    * [W3C CSS Validation Service](#w3c-css-validation-service)
+    * [Wave](#wave-testing)
+    * [Lighthouse](#lighthouse-testing)
 
-  * Manual Testing
+  * [Manual Testing](#manual-testing)
   * Bugs
 
-* Credits
-  * Code Sections Used
-  * Media
-  * Text
+* [Credits](#credits)
+  * [Code Sections](#code-sections)
+  * [Media](#media)
+  * [Text](#text)
+  * [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
 
@@ -184,11 +186,70 @@ The Nu HTML Checker was used on each page of The Old Dog site at multiple stages
 
 The W3C CSS Validation Service has also been used throughout the creation of this site, below is the final assessment showing no errors:
 
-* [CSS Validator Score through direct input](./docs/css-validator.png)
+* [CSS Validator score through direct input](./docs/css-validator.png)
 * [Here](./docs/css-warnings.png) shows the CSS validator warnings which only state that imported style sheets cannot be checked in direct input
 
 ### Wave Testing
 
+Each page was run through the Web Accessibility Evaluation Tool (Wave) multiple times throughout development, I addressed any errors that were present and now have the following scores:
+
+* [Home page](./docs/wave-index.png)
+* [Our Collections page](./docs/wave-collections.png)
+* [Contact Us page](./docs/wave-contact.png)
+* [Thank You page](./docs/wave-thank-you.png)
+
+The alerts present on each page are related to having a redundant link in the top of the page as the title text, and Home button in the navbar both link back to the home page. I decided to keep this 'redundant' link as I wanted to give viewers the option of clicking the title to return to the home page. The other alert warns against using underlined text, but I still felt it important to use underlining as a tool to show viewers which page they're currently on, and which they're hovering over.
+
+However, I would welcome any feedback about the features that have triggered alerts, and am open to removing them in the future if they prove to be inaccessible for some viewers. 
+
+### Lighthouse Testing
+
+FINISH THIS
+
+## Manual Testing
+FINISH THIS
+
+## Credits
+### Code Sections
+
+* Code sections were used from multiple Code Institute Projects as a basis for my project, most notably the [social media links from Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/15fe9d557bcc4af5a117465b9150454f/). Alongside the foundation of a basic form being used as it was done in the Love Running project
+* [Navbar from Bootstrap Version 4.0](https://getbootstrap.com/docs/4.0/components/navbar/) was used to make a collapsible hamburger navbar for mobile, and was altered to fit my specific needs
+* The development on my scroll to top button was aided considerably by Code Institute tutor Ed Bradley
+* [Horizontal rule with an icon in the center](https://codepen.io/johngerome/pen/jyrOrq)
+* [Submit button hover effect](https://github.com/IanLunn/Hover#licenses)
+* [Box shadow effect](https://getcssscan.com/css-box-shadow-examples)
+
+### Media 
+
+The following sites were used to source high quality images
+
+* [Unsplash](https://unsplash.com/)
+* [Pexels](https://www.pexels.com/)
+
+1. The logo and title text for The Old Dog was designed, with my specification and style choices in mind, by my partner Isabelle Harley using !!!!!!!!!
+2. [Main image on the home page by Clay Banks](https://unsplash.com/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+3. [Bookshelf image by Tiana](https://www.pexels.com/photo/books-in-shelf-inside-room-2898170/)
+4. [Person holding books image by Alexandra Krainyukhova](https://www.pexels.com/photo/a-person-holding-books-8207315/)
+5. [Main Collections page image by Hatice Yardim](https://unsplash.com/photos/lOdjS_r3deI)
+6. [Tell Me I'm Worthless book cover published by Cipher Press](https://www.cipherpress.co.uk/tellmeimworthless)
+7. [A Little Life book cover published by Knopf DoubleDay Publishing Group](https://www.penguinrandomhouse.com/books/239717/a-little-life-by-hanya-yanagihara/)
+8. [Fearing The Black Body book cover published by NYU Press](https://nyupress.org/9781479886753/fearing-the-black-body/)
+9. [Contact form background image by Fallon Michael](https://unsplash.com/photos/qmlGWIaIgpo)
+10. [Contact information background image by Pixabay](https://www.pexels.com/photo/bookcase-books-bookshop-bookstore-220326/)
+11. [Thank You page main background image by Benjamin Elliott](https://unsplash.com/photos/O5_RiTqiHGs)
+
+### Text
+
+* All text was written by myself, aside from that displayed within quotation marks on the site. The credit for which is listed below:
+  * [Tell Me I'm Worthless blurb](https://www.cipherpress.co.uk/tellmeimworthless)
+  * [A Little Life review 1](https://www.waterstones.com/book/a-little-life/hanya-yanagihara/9781529077216)
+  * [A Little Life review 2](https://www.independent.co.uk/)
+  * [Fearing The Black Body review- Fat Studies Journal](https://www.tandfonline.com/doi/full/10.1080/21604851.2020.1747721)
+
+## Acknowledgements
+
+* My mentor Akshat Garg was instrumental in the refinement and functioning of my site, allowing me to fix key issues and assuring I met the project deadline
+* My South Staffordshire College mentor Robert Mclaughlin was key in helping me throughout this project with any questions, issues, or concerns I had
 
 
 
