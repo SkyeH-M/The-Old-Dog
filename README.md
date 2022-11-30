@@ -60,11 +60,12 @@ The main goal of The Old Dog website is to advertise the bookshop and give poten
 
 ### User Stories
 As someone using The Old Dog website I want:
- 1. To be able to quickly and easily navigate the site and successfully find any information I'm looking for
- 2. To get a feel for the aesthetic and style of the bookshop to know whether items are clearly laid out and accessible, and that there is a large, varied selection of books on offer
- 3. When I submit a question using the contact form I want confirmation that this query has been received by the bookshop, and be provided with an estimate of when I'll receive a response
- 4. To be inspired to purchase and read books outside of my typical genres of choice, or have my attention drawn to books that I know I'll enjoy but haven't yet heard of
- 5. I want to be able to visit The Old Dog website on any device I own whether the quality of the site, or the information available suffering
+ 1. To be able to quickly and easily navigate the site 
+ 2. To be able to successfully find any information I'm looking for
+ 3. To get a feel for the aesthetic and style of the bookshop to know whether items are clearly laid out and accessible, and that there is a large, varied selection of books on offer
+ 4. When I submit a question using the contact form I want confirmation that this query has been received by the bookshop, and be provided with an estimate of when I'll receive a response
+ 5. To be inspired to purchase and read books outside of my typical genres of choice, or have my attention drawn to books that I know I'll enjoy but haven't yet heard of
+ 6. I want to be able to visit The Old Dog website on any device I own whether the quality of the site, or the information available suffering
 
  ## Design 
  ### Colour Scheme
@@ -234,7 +235,29 @@ In order to improve my Lighthouse scores I implemented multiple changes;
 * I also made sure any script files were placed at the end of the body in HTML rather than the head so that the most important content was loaded first so improve user experience
 
 ## Manual Testing
-FINISH THIS
+
+### Testing User Stories
+
+| Aims            | Are the aims being met? |
+|-----------------|-------------------|
+| 1. To be able to quickly and easily navigate the site | Navbar is prominantely displayed at the top of screen and links are labelled clearly, hamburger menu is familiar to viewers so they'll understand its function |
+| 2. Be able to successfully find any information | Pages and menu links are clearly written and information is available on each page with large headings to draw attention to important sections |
+| 3. To get an aesthetic and practical feel of the bookshop | Images show multiple aspects of the shop to viewers get get a feel for the shop, encouraging them to visit in person |
+| 4. Get an acknowledgement that my query has been received| User is directed to a thank you page that acknowledges their query has been received, showing contact information and a time estimate for a response |
+| 5. Be inspired to read or purchase new books | Our Collections page will change monthly (or more frequently) to highlight great reads and intrigue viewers into purchasing them through the shop. This also encourages repeat visitors |
+| 6. Be able to visit the site on any device | The page has been designed responsively (including using a hamburger navbar) to ensure the site is accessible on any device. Content changes to displaying 3 items on one line in desktop, to displaying one per line on mobile |
+
+
+### Full Testing 
+
+All pages have been extensively manually tested throughout the development of this project, the results of which are below:
+
+* Home page:
+  * All links direct to the correct pages in a timely manner and social media links open in a new browser to ensure viewers return to our site. The Home link in the navbar is underlined when on the Home page, and each other link is underlined when hovered over. The map is interactive and can be opened in a new browser for users to plan their individual journey to the book shop. All elements move responsively when the size of the browser viewport is changed. 
+* Our Collections page:
+  * All links direct to the correct pages in a timely manner and social media links open in a new browser to ensure viewers return to our site. The Our Collections link in the navbar is underlined when on the Our Collections page, and each other link is underlined when hovered over. All elements move responsively when the size of the browser viewport is changed
+* Contact Us page:
+  * All links direct to the correct pages in a timely manner and social media links open in a new browser to ensure viewers return to our site. The Contact Us link in the navbar is underlined when on the Contact Us page, and each other link is underlined when hovered over. All elements move responsively when the size of the browser viewport is changed. The contact form can only be submitted if a user enters their first name, last name, email address, and a message. The email address must also be valid for a submission to be made otherwise the site will prompt the user to enter a valid address. 
 
 ## Credits
 ### Code Sections
