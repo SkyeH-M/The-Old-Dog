@@ -41,6 +41,10 @@ body {
 
 /* Nav bar */
 
+.navbar-nav {
+  text-align: right;
+}
+
 #bootstrap-overrides .nav-link {
   color: #244c2c;
   text-decoration: none;
