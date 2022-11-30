@@ -204,7 +204,34 @@ However, I would welcome any feedback about the features that have triggered ale
 
 ### Lighthouse Testing
 
-FINISH THIS
+## Desktop
+
+* [Home page](./docs/d-lighthouse-index.png)
+* [Our Collections page](./docs/d-lighthouse-collections.png)
+* [Contact Us page](./docs/d-lighthouse-contact.png)
+* [Thank You page](./docs/d-lighthouse-thank-you.png)
+
+Above are the Lighthouse testing results for desktop, my accessibility and SEO results are 100 which I am pleased with as I made these a priority throughout development
+
+My best practises scores on each page suffer at a score of 83 due to known security vulnerabilities within the Bootstrap libraries I've used. These security concerns are outside of my control and so I cannot improve this warning any further. I have a warning for user experience due to images being displayed with incorrect aspect ratio, the ratio of these are off by 5% at most. I made an aesthetic choice to size and display images as they have been and don't think this imapcts the image quality so I have chosen to leave these as they are. If I encountered any issues or critical feedback as a result of the incorrect image ratio I would fix this issue.
+
+## Mobile
+
+* [Home page](./docs/m-lighthouse-index.png)
+* [Our Collections page](./docs/m-lighthouse-collections.png)
+* [Contact Us page](./docs/m-lighthouse-contact.png)
+* [Thank You page](./docs/m-lighthouse-thank-you.png)
+
+Above are the Lighthouse testing scores for mobile performance, again my Accessibility and SEO scored 100. 
+
+My performance score for mobile is around 87 with the following main warning being that the site doesn't use passive listeners to improve scrolling performance. As the solution to this would include writing JavaScript I have deemed this to be a problem that can be fixed in the future as I don't believe it negatively impacts user experience significantly. My best practises score for mobile is also affected by JavaScript libraries having known security issues, which as stated above is out of my control as this time.
+
+## Improvements Made
+
+In order to improve my Lighthouse scores I implemented multiple changes;
+
+* I first converted all image files to webp format to aid loading times and scores
+* I also made sure any script files were placed at the end of the body in HTML rather than the head so that the most important content was loaded first so improve user experience
 
 ## Manual Testing
 FINISH THIS
