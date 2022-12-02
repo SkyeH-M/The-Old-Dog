@@ -35,7 +35,7 @@ The Old Dog Bookshop website is designed to give potential customers informative
     * [Lighthouse](#lighthouse-testing)
 
   * [Manual Testing](#manual-testing)
-  * Bugs
+  * [Bugs](#bugs)
 
 * [Credits](#credits)
   * [Code Sections](#code-sections)
@@ -258,6 +258,14 @@ All pages have been extensively manually tested throughout the development of th
   * All links direct to the correct pages in a timely manner and social media links open in a new browser to ensure viewers return to our site. The Our Collections link in the navbar is underlined when on the Our Collections page, and each other link is underlined when hovered over. All elements move responsively when the size of the browser viewport is changed
 * Contact Us page:
   * All links direct to the correct pages in a timely manner and social media links open in a new browser to ensure viewers return to our site. The Contact Us link in the navbar is underlined when on the Contact Us page, and each other link is underlined when hovered over. All elements move responsively when the size of the browser viewport is changed. The contact form can only be submitted if a user enters their first name, last name, email address, and a message. The email address must also be valid for a submission to be made otherwise the site will prompt the user to enter a valid address. 
+
+## Bugs
+
+| Bugs            | Have they been solved? | How? |
+|-----------------|-------------------|-------------------|
+| 1. My first bug concerned images not displaying on my site | Yes | This was solved by altered the file paths directing to these and ensuring I use relative, not absolute file paths |
+| 2. I ran into bugs while trying to format the layout of my index.html page, images of this issue can be found [here](./docs/bug2.png) | Yes | The main issue was caused by my setting the position of my elements to absolute meaning that they'd not respond as desired to CSS and Flex commands. This also caused an issue for responsivity as when the browser viewport decreased in size the elements would overlap and become unreadable. I removed the absolute positioning and grouped elements into rows so I could easily position them using Flexbox |
+| 3. Multiple bugs occured when trying to format the navbar for mobile screens, with the aid of my mentor I was able to position the hamburger to the left on the same row as the logo and title. This however caused the following issues [image1](./docs/bug3-lg-screen.png) [image2](./docs/bug3-sm-screen.png)| Partially | I was unfortunately unable to resolve these bugs so opted to return the hamburger placement to being underneath the logo and title as this is easily readable and navigatable by users. This is however something I intend to change in the future to improve UI and the design of the site |
 
 ## Credits
 ### Code Sections
