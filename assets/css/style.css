@@ -66,7 +66,7 @@ body {
 }
 
 #bootstrap-overrides .navbar {
-  font-size: 100%;
+  font-size: 1rem;
   letter-spacing: 3px;
   text-align: center;
   padding-bottom: 25px;
@@ -79,7 +79,7 @@ body {
   color: #4d4c4c;
   list-style-type: none;
   display: inline-block;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 #bootstrap-overrides .nav-item a:hover {
@@ -89,7 +89,7 @@ body {
 /* Start of info content */
 p {
   padding: 0 20px 0 20px;
-  font-size: 13px;
+  font-size: 0.8rem;
   font-family: 'Libre Caslon Text', serif;
 }
 
@@ -107,7 +107,7 @@ p {
 }
 
 .row h2 {
-  font-size: 30px;
+  font-size: 1.8rem;
   margin-bottom: 20px;
   font-family: 'Libre Baskerville', serif;
 }
@@ -121,7 +121,7 @@ p {
 
 /* Opening hours text */
 .opening-hours-text {
-  font-size: 13px;
+  font-size: 0.8rem;
   text-align: center;
   font-family: 'Libre Caslon Text', serif;
 }
@@ -160,12 +160,12 @@ h2 {
   margin-top: 20px;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
-  font-size: 22px;
+  font-size: 1.3rem;
 }
 
 h3 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .horizontal-rule {
@@ -295,7 +295,7 @@ margin-top: 20px;
 
 .collection-text h3 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 22px;
+  font-size: 1.3rem;
 }
 
 .collections img {
@@ -327,7 +327,7 @@ margin-top: 20px;
   }
 
   .navbar a {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
 }
@@ -359,7 +359,7 @@ margin-top: 20px;
 
   .social-networks i {
     padding: 20px;
-    font-size: 30px !important;
+    font-size: 1.8rem !important;
   }
 
   .nav-container {
@@ -381,13 +381,10 @@ margin-top: 20px;
   .visit-us {
     margin: 20px;
   }
-}
 
-@media screen and (max-width: 300px) {
-  .social-networks i {
-    padding: 10px;
-    font-size: 20px !important;
-    width: 40px;
+  .index-content {
+    margin-left: 20px;
+    margin-right: 8px;
   }
 
   .bookshop-opening-img {
@@ -399,15 +396,6 @@ margin-top: 20px;
     height: 354px;
     width: 360px;
   }
-
-  .opening-hours-text {
-    font-size: 11px;
-  }
-
-  p {
-    font-size: 11px;
-  }
-
   .holding-books {
     height: 360px;
     width: 360px;
@@ -422,11 +410,41 @@ margin-top: 20px;
     height: 360px;
   width: 360px;
   }
+
+  .opening-hours-text h1 {
+    font-size: 1.25rem;
+  }
+
+  .opening-hours-text h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .social-networks i {
+    padding: 10px;
+    font-size: 1.25rem !important;
+    width: 40px;
+  }
+
+  .opening-hours-text {
+    font-size: 0.7rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  .index-content {
+    padding: 30px;
+  }
+
+
+ 
 }
 /* Form Section */
 
 #form-section {
-
   background: url(../images/contact-us.webp) no-repeat center center;
   background-size: cover;
   background-position: center;
@@ -438,7 +456,7 @@ margin-top: 20px;
 }
 
 #form-section h1 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: 'Libre Baskerville', serif;
   margin-top: 40px;
 
@@ -454,7 +472,6 @@ margin-top: 20px;
   font-family: 'Libre Caslon Text', serif;
   letter-spacing: 2px;
   width: 100%;
-  /* Should be width: 50% but that's too narrow ?*/
   margin: 50px auto;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -464,7 +481,7 @@ margin-top: 20px;
   margin-top: 25px;
   border-radius: 15%;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #244c2c;
   color: white;
 }
@@ -495,7 +512,7 @@ margin-top: 20px;
   align-items: center;
   align-content: center;
   background: url(../images/contact-info-img.webp) no-repeat center center;
-  height: 600px;
+  height: 900px;
   width: 100%;
   background-size: cover;
   color: #212529;
@@ -503,29 +520,30 @@ margin-top: 20px;
 
 #contact-info h2 {
   letter-spacing: 2px;
-  margin-bottom: 30px;
-  font-size: 28px;
+  margin-bottom: 40px;
+  font-size: 1.75rem;
   font-family: 'Libre Baskerville', serif;
 }
 
 #contact-info h3 {
   margin-bottom: 10px;
   font-family: 'Libre Baskerville', serif;
-  font-size: 22px;
+  font-size: 1.3rem;
 }
 
 #contact-info {
   background-color: white;
   text-align: center;
   color: black;
-  padding: 40px;
+  padding: 90px;
   border-radius: 20px;
+
   /* Box-shadow code provided by https://getcssscan.com/css-box-shadow-examples as suggested by mentor */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #contact-info p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 /* Thank you page directed to by the form */
@@ -561,7 +579,7 @@ margin-top: 20px;
 }
 
 .thank-you-container h2 {
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 /* Social Networks */
 
@@ -574,7 +592,7 @@ margin-top: 20px;
   color: white;
   text-decoration: none;
   padding: 40px;
-  font-size: 50px;
+  font-size: 3.1rem;
   margin-top: 20px;
 }
 
@@ -613,7 +631,7 @@ margin-top: 20px;
   cursor: pointer; 
   padding: 15px; 
   border-radius: 10px; 
-  font-size: 22px; 
+  font-size: 1.3rem; 
 }
 
 #myBtn:hover {
