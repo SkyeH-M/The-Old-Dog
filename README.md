@@ -148,6 +148,7 @@ I later created wireframes of mobile, tablet, and desktop appearances of each of
 * [Google Fonts](https://fonts.google.com/) was used to import both fonts for use on the site
 * [Tech Sini](https://techsini.com/multi-mockup/index.php) was used to create a multi device website mockup to demonstrate responsivity
 * [Tiny Png](https://tinypng.com/) was used to resize image files to help the browser load pages quicker
+* [Web Formatter](https://webformatter.com/) was used to properly format all of my code throughout the project to ensure easy reading and compliance to industry standards
 
 ## Deployment
 
