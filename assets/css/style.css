@@ -1,639 +1,619 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap");
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  min-height: 100vh;
-  width: 100%;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
 }
 
 body {
-  background-color: white;
-  color: #212529;
-  position: relative;
-  overflow-x: hidden;
-  font-family: 'Libre Caslon Text', serif;
-  height: 1000px;
-
+    background-color: white;
+    color: #212529;
+    position: relative;
+    overflow-x: hidden;
+    font-family: "Libre Caslon Text", serif;
+    height: 1000px;
 }
 
-
- .top-container {
-  display: flex;
-  justify-content: center;
- }
+.top-container {
+    display: flex;
+    justify-content: center;
+}
 
 .title-text {
-  height: 300px;
-  width: 500px;
-  margin-top: 40px;
-  padding-left: 30px;
+    height: 300px;
+    width: 500px;
+    margin-top: 40px;
+    padding-left: 30px;
 }
 
 #logo {
-  height: 250px;
-  width: 200px;
+    height: 250px;
+    width: 200px;
 
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 /* Nav bar */
 
 .navbar-nav {
-  text-align: center;
+    text-align: center;
 }
 
 #bootstrap-overrides .nav-link {
-  color: #244c2c;
-  text-decoration: none;
+    color: #244c2c;
+    text-decoration: none;
 }
 
 .nav-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-bar a:visited {
-  text-decoration: none;
-  color: #244b2c;
+    text-decoration: none;
+    color: #244b2c;
 }
 
 #bootstrap-overrides .active {
-  text-decoration: underline !important;
+    text-decoration: underline !important;
 }
 
 #bootstrap-overrides .navbar {
-  font-size: 1rem;
-  letter-spacing: 3px;
-  text-align: center;
-  padding-bottom: 25px;
-  font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: "Libre Baskerville", serif;
 }
 
 #bootstrap-overrides .nav-item {
-  margin-right: 30px;
-  text-decoration: none;
-  color: #4d4c4c;
-  list-style-type: none;
-  display: inline-block;
-  font-size: 1.5rem;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #4d4c4c;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.5rem;
 }
 
 #bootstrap-overrides .nav-item a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* Start of info content */
 p {
-  padding: 0 20px 0 20px;
-  font-size: 0.8rem;
-  font-family: 'Libre Caslon Text', serif;
+    padding: 0 20px 0 20px;
+    font-size: 0.8rem;
+    font-family: "Libre Caslon Text", serif;
 }
 
 .row {
-  display: flex;
-  justify-content: center;
-
+    display: flex;
+    justify-content: center;
 }
 
 .row h1 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Libre Baskerville", serif;
 }
 
 .row h2 {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-  font-family: 'Libre Baskerville', serif;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-family: "Libre Baskerville", serif;
 }
 
 /* Image of bookshelf */
 .bookshop-opening-img {
-  height: 395px;
-  width: 400px;
-  margin: 40px;
+    height: 395px;
+    width: 400px;
+    margin: 40px;
 }
 
 /* Opening hours text */
 .opening-hours-text {
-  font-size: 0.8rem;
-  text-align: center;
-  font-family: 'Libre Caslon Text', serif;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: "Libre Caslon Text", serif;
 }
 
 /* Border surrounding the opening hours text */
 .opening-hours-border {
-  border: 3px solid #192413;
-  height: 394px;
-  width: 400px;
-  background-color: #B8C6AF;
-  background-color: rgba(184, 198, 175, .8);
-  margin: 40px;
+    border: 3px solid #192413;
+    height: 394px;
+    width: 400px;
+    background-color: #b8c6af;
+    background-color: rgba(184, 198, 175, 0.8);
+    margin: 40px;
 }
-
 
 .map {
-  border: 3px solid #192413;
-  height: 405px;
-  width: 405px;
-  margin: 40px;
+    border: 3px solid #192413;
+    height: 405px;
+    width: 405px;
+    margin: 40px;
 }
 
-
 .holding-books {
-  height: 400px;
-  width: 400px;
-  margin: 40px;
+    height: 400px;
+    width: 400px;
+    margin: 40px;
 }
 
 h1 {
-  font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
 }
 
 h2 {
-  margin-bottom: 30px;
-  margin-top: 20px;
-  text-align: center;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.3rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.3rem;
 }
 
 h3 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.1rem;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.1rem;
 }
 
 .horizontal-rule {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  margin-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .hr-line {
-  width: 50%;
-  position: absolute;
-  margin: 22px auto;
-  border-bottom: 1px solid #4d4c4c;
+    width: 50%;
+    position: absolute;
+    margin: 22px auto;
+    border-bottom: 1px solid #4d4c4c;
 }
 
 .book {
-  top: 3px;
-  color: #4d4c4c;
-  height: 40px;
-  width: 40px;
-  background-color: transparent;
-  /* instead of white as there was overlap on smaller screens */
-  position: relative;
+    top: 3px;
+    color: #4d4c4c;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    position: relative;
 }
 
 .image1-container {
-  height: 500px;
-  position: relative;
-  background: url(../images/hero-image1-tiny.png.webp) no-repeat center center;
-  background-size: cover;
-  /* below code provided by CI Love Running Project */
-  animation-name: image1-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-
+    height: 500px;
+    position: relative;
+    background: url(../images/hero-image1-tiny.png.webp) no-repeat center center;
+    background-size: cover;
+    /* below code provided by CI Love Running Project */
+    animation-name: image1-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes image1-zoom {
-  from {
-    transform: scale(1);
-  }
+    from {
+        transform: scale(1);
+    }
 
-  to {
-    transform: scale(1.1);
-  }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 footer {
-  display: block;
-  background-color: rgb(25, 36, 19);
-  color: white;
-  text-align: center;
-  height: 150px;
-  margin-top: auto;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+    display: block;
+    background-color: rgb(25, 36, 19);
+    color: white;
+    text-align: center;
+    height: 150px;
+    margin-top: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
-
 
 /* Our Collections Page */
 
 .main-img-container {
-  height: 500px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  background: url(../images/collections-img-tiny.webp) no-repeat center center;
-  background-size: cover;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: url(../images/collections-img-tiny.webp) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .visit-us {
-  background-color: white;
-  padding: 40px;
-  border-radius: 20px;
-  color: #212529;
-  margin: 30px;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
- 
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    color: #212529;
+    margin: 30px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .visit-us h1 {
-  margin-bottom: 30px;
-  letter-spacing: 2px;
-  font-family: 'Libre Baskerville', serif;
-  color: #212529;
-  font-weight: 80;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-family: "Libre Baskerville", serif;
+    color: #212529;
+    font-weight: 80;
 }
 
- .collection {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 60px;
-  flex-wrap: wrap;
+.collection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
 }
-
 
 .collection-text {
-  text-align: center;
-  border: 3px solid #192413;
-  background-color: rgb(102, 115, 95);
-  width: 20%;
-  color: white;
-  height: 500px;
-  width: 350px;
+    text-align: center;
+    border: 3px solid #192413;
+    background-color: rgb(102, 115, 95);
+    width: 20%;
+    color: white;
+    height: 500px;
+    width: 350px;
 }
 
 .collection-text p {
-margin-top: 20px;
+    margin-top: 20px;
 }
 
 .collection-text h2 {
-  text-decoration: underline;
-  padding-top: 30px;
-  font-family: 'Libre Baskerville', serif;
-  margin-bottom: 30px;
+    text-decoration: underline;
+    padding-top: 30px;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 30px;
 }
 
 .collection-text h3 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.3rem;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.3rem;
 }
 
 .collections img {
-  height: 500px;
-  width: 350px;
+    height: 500px;
+    width: 350px;
 }
-
-
 
 /* Media Querries */
 
 @media screen and (max-width: 768px) {
-  .image1-container img {
-    max-height: 150px;
-    height: 150px;
-    width: 100%;
-  }
+    .image1-container img {
+        max-height: 150px;
+        height: 150px;
+        width: 100%;
+    }
 
-  .title-text {
-    height: 185px;
-    width: 275px;
-    margin-top: 40px;
-  }
+    .title-text {
+        height: 185px;
+        width: 275px;
+        margin-top: 40px;
+    }
 
-  #logo {
-    height: 125px;
-    width: 100px;
-    margin-top: 25%;
-  }
+    #logo {
+        height: 125px;
+        width: 100px;
+        margin-top: 25%;
+    }
 
-  .navbar a {
-    font-size: 1.25rem;
-  }
-
+    .navbar a {
+        font-size: 1.25rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    #logo {
+        height: 100px;
+        width: 75px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
 
-  #logo {
-    height: 100px;
-    width: 75px;
-    margin-top: 30px;
-    margin-left: 20px;
-  }
+    .title-text {
+        height: 150px;
+        width: 200px;
+    }
 
-  .title-text {
-    height: 150px;
-    width: 200px;
-  }
+    .contact-form {
+        height: 650px !important;
+        width: 400px !important;
+        border-radius: 10px !important;
+    }
 
-  .contact-form {
-    height: 650px !important;
-    width: 400px !important;
-    border-radius: 10px !important;
-  }
+    .contact-form-container {
+        float: left;
+        clear: right;
+    }
 
-  .contact-form-container {
-    float: left;
-    clear: right;
-  }
+    .social-networks i {
+        padding: 20px;
+        font-size: 1.8rem !important;
+    }
 
-  .social-networks i {
-    padding: 20px;
-    font-size: 1.8rem !important;
-  }
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-  .nav-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    .navbar {
+        margin-bottom: 20px;
+    }
 
-  .navbar {
-    margin-bottom: 20px;
-  }
+    .main-img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-  .main-img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    .visit-us {
+        margin: 20px;
+    }
 
-  .visit-us {
-    margin: 20px;
-  }
+    .index-content {
+        margin-left: 20px;
+        margin-right: 8px;
+    }
 
-  .index-content {
-    margin-left: 20px;
-    margin-right: 8px;
-  }
+    .bookshop-opening-img {
+        height: 355px;
+        width: 360px;
+    }
 
-  .bookshop-opening-img {
-    height: 355px;
-    width: 360px;
-  }
+    .opening-hours-border {
+        height: 354px;
+        width: 360px;
+    }
+    .holding-books {
+        height: 360px;
+        width: 360px;
+    }
 
-  .opening-hours-border {
-    height: 354px;
-    width: 360px;
-  }
-  .holding-books {
-    height: 360px;
-    width: 360px;
-  }
+    .map {
+        height: 364px;
+        width: 364px;
+    }
 
-  .map {
-    height: 364px;
-  width: 364px;
-  }
+    .map iframe {
+        height: 360px;
+        width: 360px;
+    }
 
-  .map iframe {
-    height: 360px;
-  width: 360px;
-  }
+    .opening-hours-text h1 {
+        font-size: 1.25rem;
+    }
 
-  .opening-hours-text h1 {
-    font-size: 1.25rem;
-  }
-
-  .opening-hours-text h2 {
-    font-size: 1.25rem;
-  }
+    .opening-hours-text h2 {
+        font-size: 1.25rem;
+    }
 }
 
 @media screen and (max-width: 300px) {
-  .social-networks i {
-    padding: 10px;
-    font-size: 1.25rem !important;
-    width: 40px;
-  }
+    .social-networks i {
+        padding: 10px;
+        font-size: 1.25rem !important;
+        width: 40px;
+    }
 
-  .opening-hours-text {
-    font-size: 0.7rem;
-  }
+    .opening-hours-text {
+        font-size: 0.7rem;
+    }
 
-  p {
-    font-size: 0.7rem;
-  }
+    p {
+        font-size: 0.7rem;
+    }
 
-  .index-content {
-    padding: 30px;
-  }
-
-
- 
+    .index-content {
+        padding: 30px;
+    }
 }
 /* Form Section */
 
 #form-section {
-  background: url(../images/contact-us.webp) no-repeat center center;
-  background-size: cover;
-  background-position: center;
-  height: 900px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+    background: url(../images/contact-us.webp) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 #form-section h1 {
-  font-size: 1.25rem;
-  font-family: 'Libre Baskerville', serif;
-  margin-top: 40px;
-
+    font-size: 1.25rem;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 40px;
 }
 
 .contact-form {
-  color: black;
-  background-color: white;
-  padding-bottom: 20px;
-  padding: 30px;
-  padding-top: 30px;
-  text-align: center;
-  font-family: 'Libre Caslon Text', serif;
-  letter-spacing: 2px;
-  width: 100%;
-  margin: 50px auto;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+    background-color: white;
+    padding-bottom: 20px;
+    padding: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Libre Caslon Text", serif;
+    letter-spacing: 2px;
+    width: 100%;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .submit-btn {
-  margin-top: 25px;
-  border-radius: 15%;
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: #244c2c;
-  color: white;
+    margin-top: 25px;
+    border-radius: 15%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #244c2c;
+    color: white;
 }
 
 /* Submit button hover effect */
 .submit-btn {
-  display: inline-block;
-  vertical-align: middle;
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  backface-visibility: hidden;
-  /* -moz-osx-font-smoothing: grayscale; */
-  transition-duration: 0.3s;
-  transition-property: transform;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+    transition-property: transform;
 }
 
 .submit-btn:hover,
 .submit-btn:focus,
 .submit-btn:active {
-  transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .contact-section {
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  background: url(../images/contact-info-img.webp) no-repeat center center;
-  height: 900px;
-  width: 100%;
-  background-size: cover;
-  color: #212529;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: url(../images/contact-info-img.webp) no-repeat center center;
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    color: #212529;
 }
 
 #contact-info h2 {
-  letter-spacing: 2px;
-  margin-bottom: 40px;
-  font-size: 1.75rem;
-  font-family: 'Libre Baskerville', serif;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    font-size: 1.75rem;
+    font-family: "Libre Baskerville", serif;
 }
 
 #contact-info h3 {
-  margin-bottom: 10px;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.3rem;
 }
 
 #contact-info {
-  background-color: white;
-  text-align: center;
-  color: black;
-  padding: 90px;
-  border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 90px;
+    border-radius: 20px;
 
-  /* Box-shadow code provided by https://getcssscan.com/css-box-shadow-examples as suggested by mentor */
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* Box-shadow code provided by https://getcssscan.com/css-box-shadow-examples as suggested by mentor */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #contact-info p {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 /* Thank you page directed to by the form */
 
 .thank-you-message {
-  text-align: center;
-  background-color: white;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: black;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: "Libre Baskerville", serif;
 }
 
 .thank-you-message h1 {
-  padding-bottom: 20px;
-  letter-spacing: 2px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
 }
 
 .thank-you-container {
-  background-color: white;
-  background: url(../images/park-hill.webp) no-repeat center center;
-  height: 600px;
-  width: 100%;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+    background-color: white;
+    background: url(../images/park-hill.webp) no-repeat center center;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .thank-you-container h2 {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 /* Social Networks */
 
 .social-networks {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
 
 .social-networks i {
-  color: white;
-  text-decoration: none;
-  padding: 40px;
-  font-size: 3.1rem;
-  margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    font-size: 3.1rem;
+    margin-top: 20px;
 }
 
 .social-networks li {
-  display: inline-block;
+    display: inline-block;
 }
 
 /* Social networks hover effect base provided by Ian Lunn */
 .hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  backface-visibility: hidden;
-  /* -moz-osx-font-smoothing: grayscale; */
-  transition-duration: 0.3s;
-  transition-property: transform;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+    transition-property: transform;
 }
 
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-  transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 #myBtn {
-  display: block;
-  position: fixed; 
-  bottom: 20px; 
-  right: 30px; 
-  z-index: 99; 
-  border: none; 
-  outline: none; 
-  color: #192413; 
-  background-color: white;
-  cursor: pointer; 
-  padding: 15px; 
-  border-radius: 10px; 
-  font-size: 1.3rem; 
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: #192413;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.3rem;
 }
 
 #myBtn:hover {
-  background-color: #66735F; /* Add a dark-grey background on hover */
+    background-color: #66735f; /* Add a dark-grey background on hover */
 }
