@@ -88,7 +88,6 @@ I used [Google Fonts](https://fonts.google.com/) to import the following fonts t
  * The secondary font used for the body is Libre Caslon Text which was selected for its clear readibility, and design that is reminiscient of fonts used in the text of many books
  ![image of the secondary font](./docs/body-text.png)
  * Both fonts are from the Serif family to ensure consistency throughout the site
- * ????? Are these fonts web safe/accessible ?????
 
  ### Icons and Images
 
@@ -122,7 +121,11 @@ Accessibility has been in the forefront of my mind throughout the design and con
 
 ### Wireframes
 
-Before beginning work constructing my site I created wireframes of mobile, tablet, and desktop appearances of each of my three main pages.
+Before beginning work constructing my site I briefly sketched a basic idea of what my page might look like. This differs considerably to my later wireframes and actual site but still keeps core concepts the same. 
+
+* [Original Sketch](./docs/early-design.png)
+
+I later created wireframes of mobile, tablet, and desktop appearances of each of my three main pages, this solidified my design choices.
 
 * [Home page wireframe](./docs/home-wireframe.png)
 * [Our Collections wireframe](./docs/collections-wireframes.png)
@@ -238,14 +241,14 @@ In order to improve my Lighthouse scores I implemented multiple changes;
 
 ### Testing User Stories
 
-| Aims            | Are the aims being met? |
-|-----------------|-------------------|
-| 1. To be able to quickly and easily navigate the site | Navbar is prominantely displayed at the top of screen and links are labelled clearly, hamburger menu is familiar to viewers so they'll understand its function |
-| 2. Be able to successfully find any information | Pages and menu links are clearly written and information is available on each page with large headings to draw attention to important sections |
-| 3. To get an aesthetic and practical feel of the bookshop | Images show multiple aspects of the shop to viewers get get a feel for the shop, encouraging them to visit in person |
-| 4. Get an acknowledgement that my query has been received| User is directed to a thank you page that acknowledges their query has been received, showing contact information and a time estimate for a response |
-| 5. Be inspired to read or purchase new books | Our Collections page will change monthly (or more frequently) to highlight great reads and intrigue viewers into purchasing them through the shop. This also encourages repeat visitors |
-| 6. Be able to visit the site on any device | The page has been designed responsively (including using a hamburger navbar) to ensure the site is accessible on any device. Content changes to displaying 3 items on one line in desktop, to displaying one per line on mobile |
+| Aims            | Are the aims being met? | Images |
+|-----------------|-------------------|-----------------|
+| 1. To be able to quickly and easily navigate the site | Navbar is prominantely displayed at the top of screen and links are labelled clearly, hamburger menu is familiar to viewers so they'll understand its function | ![image of hamburger menu](./docs/hamburger-nav.png) |
+| 2. Be able to successfully find any information | Pages and menu links are clearly written and information is available on each page with large headings to draw attention to important sections | ![image of nav bar links](./docs/navbar.png) ![image of information headings](./docs/information-headings.png)|
+| 3. To get an aesthetic and practical feel of the bookshop | Images show multiple aspects of the shop to viewers get get a feel for the shop, encouraging them to visit in person | ![image of aesthetic of the shop 1](./docs/aesthetic1.png) ![image of aesthetic of the shop 2](./docs/aesthetic2.png)|
+| 4. Get an acknowledgement that my query has been received| User is directed to a thank you page that acknowledges their query has been received, showing contact information and a time estimate for a response | ![image of thank you message](./docs/thank-you-message.png)|
+| 5. Be inspired to read or purchase new books | Our Collections page will change monthly (or more frequently) to highlight great reads and intrigue viewers into purchasing them through the shop. This also encourages repeat visitors | ![image of a book review](./docs/book-review.png)|
+| 6. Be able to visit the site on any device | The page has been designed responsively (including using a hamburger navbar) to ensure the site is accessible on any device. Content changes to displaying 3 items on one line in desktop, to displaying one per line on mobile | ![image of desktop layout](./docs/desktop-layout.png) ![image of mobile layout](./docs/mobile-layout.png)|
 
 
 ### Full Testing 
@@ -284,7 +287,7 @@ The following sites were used to source high quality images
 * [Unsplash](https://unsplash.com/)
 * [Pexels](https://www.pexels.com/)
 
-1. The logo and title text for The Old Dog was designed, with my specification and style choices in mind, by my partner Isabelle Harley using !!!!!!!!!
+1. The logo and title text for The Old Dog was designed, with my specification and style choices in mind, by my partner Isabelle Harley using [Procreate](https://procreate.com/)
 2. [Main image on the home page by Clay Banks](https://unsplash.com/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 3. [Bookshelf image by Tiana](https://www.pexels.com/photo/books-in-shelf-inside-room-2898170/)
 4. [Person holding books image by Alexandra Krainyukhova](https://www.pexels.com/photo/a-person-holding-books-8207315/)
