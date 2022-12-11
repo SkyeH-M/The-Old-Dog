@@ -431,19 +431,45 @@ footer {
 }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) { 
+    #logo {
+        height: 100px;
+        width: 75px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .title-text {
+        height: 150px;
+        width: 200px;
+    }
+
     .social-networks i {
         padding: 20px;
         font-size: 1.15rem;
         width: 20px;
     }
 
+    .social-networks {
+        padding-left: 0;
+        padding-right: 20px;
+        margin-bottom: 0;
+    }
+   
     .opening-hours-text {
         font-size: 0.7rem;
     }
 
     p {
         font-size: 0.7rem;
+    }
+
+    .opening-hours-text h1 {
+        font-size: 1rem;
+    }
+
+    .opening-hours-text h2 {
+        font-size: 1rem;
     }
 
     .index-content {
@@ -477,13 +503,124 @@ footer {
         width: 324px;
     }
 
-    .contact-form {
-        height: 520px !important;
-        width: 320px !important;
+     .contact-form {
+        height: 520px;
+        width: 320px;
 }
 
     #freeform {   
         width: 250px;
+        height: 100px;
+}
+
+#form-section h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+#form-section label {
+    font-size: 0.8rem;
+}
+
+#contact-info {
+   padding: 54px;
+}
+
+.visit-us h1 {
+    font-size: 1.3rem;
+}
+}
+
+@media screen and (max-width: 300px) {
+
+#logo {
+    height: 80px;
+    width: 60px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.title-text {
+    height: 120px;
+    width: 160px;
+    padding-left: 10px;
+}
+
+    .social-networks i {
+        font-size: 1.15rem;
+        width: 20px;
+        padding: 20px;
+    }
+
+    .social-networks {
+        padding-left: 0;
+        padding-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .opening-hours-text {
+        font-size: 0.7rem;
+    }
+
+    p {
+        font-size: 0.7rem;
+    }
+
+    .index-content {
+       margin-left: 8px;
+       margin-right: 8px;
+    }
+
+    .bookshop-opening-img {
+        height: 256px;
+        width: 260px;
+        margin: 10px;
+    }
+
+    .opening-hours-border {
+        height: 254px;
+        width: 260px;
+    }
+
+    .index-content p {
+        font-size: 0.5rem;
+    }
+
+    .index-content div {
+        font-size: 0.5rem;
+    }
+
+    .index-content h1 {
+        font-size: 0.8rem;
+    }
+
+    .index-content h2 {
+        font-size: 0.8rem;
+    }
+
+    .holding-books {
+        height: 260px;
+        width: 260px;
+    }
+
+    .map {
+        height: 264px;
+        width: 264px;
+    }
+
+    .map iframe {
+        height: 258px;
+        width: 258px;
+    }
+
+   #form-section .contact-form {
+        height: 500px !important;
+        width: 256px !important;
+}
+
+    #freeform {   
+        width: 200px;
         height: 100px;
 }
 
@@ -498,12 +635,49 @@ footer {
 }
 
 #contact-info {
-   padding: 54px !important;
-}
+   padding: 10px !important;
+   padding-top: 20px !important;
 }
 
-@media screen and (max-width: 300px) {
+.visit-us h1 {
+    font-size: 1rem;
+}
 
+.visit-us {
+    padding: 20px 10px;
+    
+}
+
+.collection img {
+    height: 400px;
+    width: 260px;
+}
+
+.collection-text {
+height: 395px;
+width: 260px;
+}
+
+.collection-text h2 {
+    font-size: 1rem;
+}
+
+.collection-text h3 {
+    font-size: 0.9rem;
+}
+
+.thank-you-message h1 {
+font-size: 1rem;
+}
+
+body .thank-you-message h2 {
+    font-size: 0.9rem;
+}
+
+body .thank-you-message {
+    padding: 10px;
+    margin: 15px;
+}
 }
 
 /* Form Section */
@@ -648,6 +822,7 @@ footer {
 .social-networks {
     color: white;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .social-networks i {
