@@ -7,6 +7,7 @@ body {
     margin: 0;
     min-height: 100vh;
     width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -16,6 +17,10 @@ body {
     overflow-x: hidden;
     font-family: "Libre Caslon Text", serif;
     height: 1000px;
+}
+
+html {
+min-height: 100%;
 }
 
 .top-container {
@@ -212,7 +217,7 @@ footer {
     background-color: rgb(25, 36, 19);
     color: white;
     text-align: center;
-    height: 150px;
+   /* height: 150px; */
     margin-top: auto;
     display: flex;
     flex-wrap: nowrap;
@@ -338,11 +343,6 @@ footer {
         border-radius: 10px !important;
     }
 
-    .contact-form-container {
-        float: left;
-        clear: right;
-    }
-
     .social-networks i {
         padding: 20px;
         font-size: 1.8rem !important;
@@ -369,7 +369,7 @@ footer {
     }
 
     .index-content {
-        margin-left: 20px;
+        margin-left: 8px;
         margin-right: 8px;
     }
 
@@ -382,6 +382,7 @@ footer {
         height: 354px;
         width: 360px;
     }
+
     .holding-books {
         height: 360px;
         width: 360px;
@@ -404,13 +405,37 @@ footer {
     .opening-hours-text h2 {
         font-size: 1.25rem;
     }
+
+    .contact-form {
+        height: 520px !important;
+        width: 320px !important;
 }
 
-@media screen and (max-width: 300px) {
+    #freeform {   
+        width: 250px;
+        height: 100px;
+}
+
+#form-section h1 {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+    font-size: 1rem !important;
+}
+
+#form-section label {
+    font-size: 0.8rem;
+}
+
+#contact-info {
+   padding: 54px !important;
+}
+}
+
+@media screen and (max-width: 375px) {
     .social-networks i {
-        padding: 10px;
-        font-size: 1.25rem !important;
-        width: 40px;
+        padding: 20px;
+        font-size: 1.15rem;
+        width: 20px;
     }
 
     .opening-hours-text {
@@ -422,9 +447,65 @@ footer {
     }
 
     .index-content {
-        padding: 30px;
+       margin-left: 8px;
+       margin-right: 8px;
     }
+
+    .bookshop-opening-img {
+        height: 320px;
+        width: 324px;
+        margin: 10px;
+    }
+
+    .opening-hours-border {
+        height: 318px;
+        width: 324px;
+    }
+
+    .holding-books {
+        height: 324px;
+        width: 324px;
+    }
+
+    .map {
+        height: 330px;
+        width: 330px;
+    }
+
+    .map iframe {
+        height: 324px;
+        width: 324px;
+    }
+
+    .contact-form {
+        height: 520px !important;
+        width: 320px !important;
 }
+
+    #freeform {   
+        width: 250px;
+        height: 100px;
+}
+
+#form-section h1 {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+    font-size: 1rem !important;
+}
+
+#form-section label {
+    font-size: 0.8rem;
+}
+
+#contact-info {
+   padding: 54px !important;
+}
+}
+
+@media screen and (max-width: 300px) {
+
+}
+
 /* Form Section */
 
 #form-section {
