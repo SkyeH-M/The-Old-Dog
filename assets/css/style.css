@@ -20,7 +20,7 @@ body {
 }
 
 html {
-min-height: 100%;
+    min-height: 100%;
 }
 
 .top-container {
@@ -217,7 +217,7 @@ footer {
     background-color: rgb(25, 36, 19);
     color: white;
     text-align: center;
-   /* height: 150px; */
+    /* height: 150px; */
     margin-top: auto;
     display: flex;
     flex-wrap: nowrap;
@@ -409,29 +409,29 @@ footer {
     .contact-form {
         height: 520px !important;
         width: 320px !important;
-}
+    }
 
-    #freeform {   
+    #freeform {
         width: 250px;
         height: 100px;
+    }
+
+    #form-section h1 {
+        margin-top: 10px !important;
+        margin-bottom: 10px;
+        font-size: 1rem !important;
+    }
+
+    #form-section label {
+        font-size: 0.8rem;
+    }
+
+    #contact-info {
+        padding: 54px !important;
+    }
 }
 
-#form-section h1 {
-    margin-top: 10px !important;
-    margin-bottom: 10px;
-    font-size: 1rem !important;
-}
-
-#form-section label {
-    font-size: 0.8rem;
-}
-
-#contact-info {
-   padding: 54px !important;
-}
-}
-
-@media screen and (max-width: 375px) { 
+@media screen and (max-width: 375px) {
     #logo {
         height: 100px;
         width: 75px;
@@ -455,13 +455,13 @@ footer {
         padding-right: 20px;
         margin-bottom: 0;
     }
-   
+
     .opening-hours-text {
         font-size: 0.7rem;
     }
 
     p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .opening-hours-text h1 {
@@ -473,8 +473,8 @@ footer {
     }
 
     .index-content {
-       margin-left: 8px;
-       margin-right: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     .bookshop-opening-img {
@@ -503,42 +503,42 @@ footer {
         width: 324px;
     }
 
-     .contact-form {
+    .contact-form {
         height: 520px;
         width: 320px;
-}
+    }
 
-    #freeform {   
+    #freeform {
         width: 250px;
         height: 100px;
-}
-
-#form-section h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 1rem;
-}
-
-#form-section label {
-    font-size: 0.8rem;
-}
-
-#contact-info {
-   padding: 54px;
-}
-
-.visit-us h1 {
-    font-size: 1.3rem;
-}
-
-.thank-you-message h1 {
-    font-size: 1rem;
     }
-    
+
+    #form-section h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    #form-section label {
+        font-size: 0.8rem;
+    }
+
+    #contact-info {
+        padding: 54px;
+    }
+
+    .visit-us h1 {
+        font-size: 1.3rem;
+    }
+
+    .thank-you-message h1 {
+        font-size: 1rem;
+    }
+
     body .thank-you-message h2 {
         font-size: 0.9rem;
     }
-    
+
     body .thank-you-message {
         padding: 10px;
         margin: 15px;
@@ -546,19 +546,18 @@ footer {
 }
 
 @media screen and (max-width: 300px) {
+    #logo {
+        height: 80px;
+        width: 60px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
 
-#logo {
-    height: 80px;
-    width: 60px;
-    margin-top: 50px;
-    margin-left: 10px;
-}
-
-.title-text {
-    height: 120px;
-    width: 160px;
-    padding-left: 10px;
-}
+    .title-text {
+        height: 120px;
+        width: 160px;
+        padding-left: 10px;
+    }
 
     .social-networks i {
         font-size: 1.15rem;
@@ -581,8 +580,8 @@ footer {
     }
 
     .index-content {
-       margin-left: 8px;
-       margin-right: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     .bookshop-opening-img {
@@ -627,70 +626,69 @@ footer {
         width: 258px;
     }
 
-   #form-section .contact-form {
+    #form-section .contact-form {
         height: 500px !important;
         width: 256px !important;
-}
+    }
 
-    #freeform {   
+    #freeform {
         width: 200px;
         height: 100px;
-}
+    }
 
-#form-section h1 {
-    margin-top: 10px !important;
-    margin-bottom: 10px;
-    font-size: 1rem !important;
-}
+    #form-section h1 {
+        margin-top: 10px !important;
+        margin-bottom: 10px;
+        font-size: 1rem !important;
+    }
 
-#form-section label {
-    font-size: 0.8rem;
-}
+    #form-section label {
+        font-size: 0.8rem;
+    }
 
-#contact-info {
-   padding: 10px !important;
-   padding-top: 20px !important;
-}
+    #contact-info {
+        padding: 10px !important;
+        padding-top: 20px !important;
+    }
 
-.visit-us h1 {
-    font-size: 1rem;
-}
+    .visit-us h1 {
+        font-size: 1rem;
+    }
 
-.visit-us {
-    padding: 20px 10px;
-    
-}
+    .visit-us {
+        padding: 20px 10px;
+    }
 
-.collection img {
-    height: 400px;
-    width: 260px;
-}
+    .collection img {
+        height: 400px;
+        width: 260px;
+    }
 
-.collection-text {
-height: 395px;
-width: 260px;
-}
+    .collection-text {
+        height: 395px;
+        width: 260px;
+    }
 
-.collection-text h2 {
-    font-size: 1rem;
-}
+    .collection-text h2 {
+        font-size: 1rem;
+    }
 
-.collection-text h3 {
-    font-size: 0.9rem;
-}
+    .collection-text h3 {
+        font-size: 0.9rem;
+    }
 
-.thank-you-message h1 {
-font-size: 1rem;
-}
+    .thank-you-message h1 {
+        font-size: 1rem;
+    }
 
-body .thank-you-message h2 {
-    font-size: 0.9rem;
-}
+    body .thank-you-message h2 {
+        font-size: 0.9rem;
+    }
 
-body .thank-you-message {
-    padding: 10px;
-    margin: 15px;
-}
+    body .thank-you-message {
+        padding: 10px;
+        margin: 15px;
+    }
 }
 
 /* Form Section */
@@ -884,5 +882,5 @@ body .thank-you-message {
 }
 
 #myBtn:hover {
-    background-color: #66735f; /* Add a dark-grey background on hover */
+    background-color: #66735f; 
 }
