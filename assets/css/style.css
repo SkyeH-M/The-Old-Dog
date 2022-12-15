@@ -351,6 +351,11 @@ footer {
 
 /* Media Querries */
 
+@media screen and (max-width: 930) {
+    .open-image {
+        margin-top: 0;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .image1-container img {
@@ -373,6 +378,10 @@ footer {
 
     .navbar a {
         font-size: 1.25rem;
+    }
+
+    .open-image {
+        margin-top: 0;
     }
 
 }
@@ -481,7 +490,7 @@ footer {
         height: 320px;
         width: 320px;
         margin-bottom: 40px;
-        margin-top: 40px;
+        margin-top: 0 !important;
     }
 
     .contact-form {
