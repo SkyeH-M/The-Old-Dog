@@ -99,6 +99,7 @@ p {
 .row {
     display: flex;
     justify-content: center;
+    
 }
 
 .row h1 {
@@ -118,7 +119,7 @@ p {
 .bookshop-opening-img {
     height: 395px;
     width: 400px;
-    margin: 40px;
+    margin: 40px; 
 }
 
 /* Opening hours text */
@@ -135,20 +136,20 @@ p {
     width: 400px;
     background-color: #b8c6af;
     background-color: rgba(184, 198, 175, 0.8);
-    margin: 40px;
+    margin: 40px; 
 }
 
 .map {
     border: 3px solid #192413;
     height: 405px;
     width: 405px;
-    margin: 40px;
+    margin: 40px; 
 }
 
 .holding-books {
     height: 400px;
     width: 400px;
-    margin: 40px;
+    margin: 40px; 
 }
 
 h1 {
@@ -220,14 +221,10 @@ h3 {
     border: 3px solid #192413;
     height: 400px;
     width: 404px;
+    margin: 40px; 
+    margin-bottom: 80px;
 }
 
-.events-layout {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
 
 .video {
 text-align: center;
@@ -260,7 +257,12 @@ padding-bottom: 20px;
     color: rgb(33, 37, 41);
     padding-bottom: 10px;
 }
-
+.open-image {
+height: 400px;
+width: 400px;
+ margin: 40px;
+ margin-bottom: 80px; 
+}
 
 footer {
     display: block;
@@ -460,10 +462,18 @@ footer {
     .events {
         height: 360px;
         width: 360px;
+        margin: 30px;
     }
 
     .video iframe {
         display: none;
+    }
+
+    .open-image {
+        height: 320px;
+        width: 320px;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
 
     .contact-form {
@@ -556,6 +566,8 @@ footer {
     .map {
         height: 330px;
         width: 330px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .map iframe {
@@ -679,11 +691,31 @@ footer {
     .map {
         height: 264px;
         width: 264px;
+        margin: 10px;
+        margin-bottom: 20px;
     }
 
     .map iframe {
         height: 258px;
         width: 258px;
+    }
+
+    .events {
+        margin: 15px;
+        margin-top: 20px;
+        height: 270px;
+        margin-bottom: 10px;
+    }
+
+    .events h2 {
+        font-size: 0.8rem;
+    }
+
+    .open-image {
+        height: 264px;
+        width: 264px;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
 
     #form-section .contact-form {
