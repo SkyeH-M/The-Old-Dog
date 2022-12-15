@@ -26,6 +26,7 @@ The Old Dog Bookshop website is designed to give potential customers informative
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
 
 * [Deployment](#deployment)
+  * [Local Deployment](#local-deployment)
 
 * [Testing](#testing)
   * [Automated Testing](#automated-testing)
@@ -286,6 +287,8 @@ All pages have been extensively manually tested throughout the development of th
 | 1. My first bug concerned images not displaying on my site | Yes | This was solved by altered the file paths directing to these and ensuring I use relative, not absolute file paths |
 | 2. I ran into bugs while trying to format the layout of my index.html page, images of this issue can be found [here](./docs/bug2.png) | Yes | The main issue was caused by my setting the position of my elements to absolute meaning that they'd not respond as desired to CSS and Flex commands. This also caused an issue for responsivity as when the browser viewport decreased in size the elements would overlap and become unreadable. I removed the absolute positioning and grouped elements into rows so I could easily position them using Flexbox |
 | 3. Multiple bugs occured when trying to format the navbar for mobile screens, with the aid of my mentor I was able to position the hamburger to the left on the same row as the logo and title. This however caused the following issues [image1](./docs/bug3-lg-screen.png) [image2](./docs/bug3-sm-screen.png)| Partially | I was unfortunately unable to resolve these bugs so opted to return the hamburger placement to being underneath the logo and title as this is easily readable and navigatable by users. This is however something I intend to change in the future to improve UI and the design of the site |
+
+In the future I would also like to refactor a lot of my code, specifically the CSS file as it could definitely be cut down. Unfortunately I ran out of time to properly devote my attention to this but it is something I'd like to work on.
 
 ## Credits
 ### Code Sections

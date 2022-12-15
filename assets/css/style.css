@@ -99,7 +99,6 @@ p {
 .row {
     display: flex;
     justify-content: center;
-    
 }
 
 .row h1 {
@@ -119,7 +118,7 @@ p {
 .bookshop-opening-img {
     height: 395px;
     width: 400px;
-    margin: 40px; 
+    margin: 40px;
 }
 
 /* Opening hours text */
@@ -136,20 +135,20 @@ p {
     width: 400px;
     background-color: #b8c6af;
     background-color: rgba(184, 198, 175, 0.8);
-    margin: 40px; 
+    margin: 40px;
 }
 
 .map {
     border: 3px solid #192413;
     height: 405px;
     width: 405px;
-    margin: 40px; 
+    margin: 40px;
 }
 
 .holding-books {
     height: 400px;
     width: 400px;
-    margin: 40px; 
+    margin: 40px;
 }
 
 h1 {
@@ -221,14 +220,13 @@ h3 {
     border: 3px solid #192413;
     height: 400px;
     width: 404px;
-    margin: 40px; 
+    margin: 40px;
     margin-bottom: 80px;
 }
 
-
 .video {
-text-align: center;
-padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .video iframe {
@@ -258,10 +256,10 @@ padding-bottom: 20px;
     padding-bottom: 10px;
 }
 .open-image {
-height: 400px;
-width: 400px;
- margin: 40px;
- margin-bottom: 80px; 
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    margin-bottom: 80px;
 }
 
 footer {
@@ -383,7 +381,6 @@ footer {
     .open-image {
         margin-top: 0;
     }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -735,10 +732,10 @@ footer {
     }
 
     .open-image {
-        height: 264px;
-        width: 264px;
+        height: 264px !important;
+        width: 264px !important;
         margin-bottom: 40px;
-        margin-top: 40px;
+        margin-top: 40px !important;
     }
 
     #form-section .contact-form {
@@ -997,5 +994,5 @@ footer {
 }
 
 #myBtn:hover {
-    background-color: #66735f; 
+    background-color: #66735f;
 }
