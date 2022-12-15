@@ -99,7 +99,7 @@ I used [Google Fonts](https://fonts.google.com/) to import the following fonts t
  * Images used in the Contact Us page are positioned in the background with text laid over the top displayed against a white background so viewers aren't distracted by images.
 
  ### Features
- The Old Dog website includes three main pages, Home, Our Collections, and Contact Us, these pages are all accessible through the navigation menu shown near the top of the screen. A Thank You page is also accessible if a viewer submits a question to the Contact Us page to notify them that their question has been received.
+ The Old Dog website includes three main pages, Home, Our Collections, and Contact Us, these pages are all accessible through the navigation menu shown near the top of the screen. A Thank You page is also accessible if a viewer submits a question to the Contact Us page to notify them that their question has been received. On the index page there is working Youtube content which is copright free from the channel Creative Commons. This video does not autoplay, it only plays when a user actively clicks on the content.
 
  * The pages include:
    * A navigation bar that enables viewers to navigate to each of the three main pages of the site. The page the viewer is currently on is displayed with an underlined title to show which page is active. Upon hovering over each of the navigation links they'll also be underlined to show the viewer where they are clicking. The navigation bar is responsive meaning that it decreases in size if viewed on smaller screen sizes, and becomes a collapsible hamburger bar if viewed on mobile. This is to streamline the appearance of the navigation bar and reduce clutter on mobile screens.
@@ -174,6 +174,18 @@ The Old Dog website is deployed using Github Pages, this was done by:
 
 1. Locate the main page of The-Old-Dog repository
 2. Click the fork button in the top right of the screen, between the watch, and star buttons
+
+
+### How to port files from Atom to Gitpod/Github
+
+Below I have listed the steps I took to port my files over from Atom, which I began creating my project in, to Github so that I could work on it using Gitpod:
+
+1. I located my files that were saved locally in a folder in my computer documents
+2. I created a new repository on Github for my project by clicking the Create a new repository button on the Github dashboard
+3. I opened my repository
+4. I highlighted all relevant files in my documents and dragged them into the workspace for my new repository
+
+I would like to note that this isn't the most efficient or industry standard method of completing this task, however it was what was available to me at the time. 
 
 ## Testing
 
@@ -293,16 +305,18 @@ The following sites were used to source high quality images
 * [Pexels](https://www.pexels.com/)
 
 1. The logo and title text for The Old Dog was designed, with my specification and style choices in mind, by my partner Isabelle Harley using [Procreate](https://procreate.com/)
-2. [Main image on the home page by Clay Banks](https://unsplash.com/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+2. [Main image on the home page by Clay Banks](https://unsplash.com/photos/z_DkoUqgx6M)
 3. [Bookshelf image by Tiana](https://www.pexels.com/photo/books-in-shelf-inside-room-2898170/)
 4. [Person holding books image by Alexandra Krainyukhova](https://www.pexels.com/photo/a-person-holding-books-8207315/)
-5. [Main Collections page image by Hatice Yardim](https://unsplash.com/photos/lOdjS_r3deI)
-6. [Tell Me I'm Worthless book cover published by Cipher Press](https://www.cipherpress.co.uk/tellmeimworthless)
-7. [A Little Life book cover published by Knopf DoubleDay Publishing Group](https://www.penguinrandomhouse.com/books/239717/a-little-life-by-hanya-yanagihara/)
-8. [Fearing The Black Body book cover published by NYU Press](https://nyupress.org/9781479886753/fearing-the-black-body/)
-9. [Contact form background image by Fallon Michael](https://unsplash.com/photos/qmlGWIaIgpo)
-10. [Contact information background image by Pixabay](https://www.pexels.com/photo/bookcase-books-bookshop-bookstore-220326/)
-11. [Thank You page main background image by Benjamin Elliott](https://unsplash.com/photos/O5_RiTqiHGs)
+5. [Store open as normal image by Tetiana Shyshkina](https://unsplash.com/photos/9PTI7sz3z48)
+6. [Youtube video Kelsey Merkley, "Horizontal Hostility" on Creative Commons](https://www.youtube.com/watch?v=1Y0FuH5FNCo)
+7. [Main Collections page image by Hatice Yardim](https://unsplash.com/photos/lOdjS_r3deI)
+8. [Tell Me I'm Worthless book cover published by Cipher Press](https://www.cipherpress.co.uk/tellmeimworthless)
+9. [A Little Life book cover published by Knopf DoubleDay Publishing Group](https://www.penguinrandomhouse.com/books/239717/a-little-life-by-hanya-yanagihara/)
+10. [Fearing The Black Body book cover published by NYU Press](https://nyupress.org/9781479886753/fearing-the-black-body/)
+11. [Contact form background image by Fallon Michael](https://unsplash.com/photos/qmlGWIaIgpo)
+12. [Contact information background image by Pixabay](https://www.pexels.com/photo/bookcase-books-bookshop-bookstore-220326/)
+13. [Thank You page main background image by Benjamin Elliott](https://unsplash.com/photos/O5_RiTqiHGs)
 
 ### Text
 
