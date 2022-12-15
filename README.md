@@ -241,7 +241,7 @@ My best practises scores on each page suffer at a score of 83 due to known secur
 
 Above are the Lighthouse testing scores for mobile performance, again my Accessibility and SEO scored 100. 
 
-My performance score for mobile is around 87 with the following main warning being that the site doesn't use passive listeners to improve scrolling performance. As the solution to this would include writing JavaScript I have deemed this to be a problem that can be fixed in the future as I don't believe it negatively impacts user experience significantly. My best practises score for mobile is also affected by JavaScript libraries having known security issues, which as stated above is out of my control as this time.
+My performance score for mobile is around 87 with the following main warning being that the site doesn't use passive listeners to improve scrolling performance. As the solution to this would include writing JavaScript I have deemed this to be a problem that can be fixed in the future as I don't believe it negatively impacts user experience significantly. My best practises score for mobile is also affected by JavaScript libraries having known security issues, which as stated above is out of my control as this time. My performance score for the index.html page on mobile has a diagnostics warning of "serve static assets with an efficient cache policy". After reading around this issue on Google and Slack I do not believe this to be something that I can currently rectify so will attempt to fix this in the future.
 
 ## Improvements Made
 
