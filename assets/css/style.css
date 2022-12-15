@@ -102,7 +102,7 @@ p {
 }
 
 .row h1 {
-    font-size: 30px;
+    font-size: 1.8rem;
     margin-bottom: 20px;
     margin-top: 20px;
     font-family: "Libre Baskerville", serif;
@@ -212,12 +212,61 @@ h3 {
     }
 }
 
+/* Events Section */
+
+.events {
+    background-color: #b8c6af;
+    background-color: rgba(184, 198, 175, 0.8);
+    border: 3px solid #192413;
+    height: 400px;
+    width: 404px;
+}
+
+.events-layout {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.video {
+text-align: center;
+padding-bottom: 20px;
+}
+
+.video iframe {
+    width: 300px;
+    height: 200px;
+}
+
+.events h2 {
+    font-size: 1.8rem;
+    font-family: "Libre Caslon Text", serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.events p {
+    text-align: center;
+}
+
+.video-hyperlink {
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: "Libre Caslon Text", serif;
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+    padding-bottom: 10px;
+}
+
+
 footer {
     display: block;
     background-color: rgb(25, 36, 19);
     color: white;
     text-align: center;
-    /* height: 150px; */
     margin-top: auto;
     display: flex;
     flex-wrap: nowrap;
@@ -300,6 +349,7 @@ footer {
 
 /* Media Querries */
 
+
 @media screen and (max-width: 768px) {
     .image1-container img {
         max-height: 150px;
@@ -322,6 +372,7 @@ footer {
     .navbar a {
         font-size: 1.25rem;
     }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -406,6 +457,15 @@ footer {
         font-size: 1.25rem;
     }
 
+    .events {
+        height: 360px;
+        width: 360px;
+    }
+
+    .video iframe {
+        display: none;
+    }
+
     .contact-form {
         height: 520px !important;
         width: 320px !important;
@@ -461,7 +521,7 @@ footer {
     }
 
     p {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .opening-hours-text h1 {
