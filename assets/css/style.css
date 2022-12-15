@@ -465,6 +465,14 @@ footer {
         margin: 30px;
     }
 
+    .events h2 {
+        margin: 30px;
+    }
+
+    .events p {
+        margin: 20px;
+    }
+
     .video iframe {
         display: none;
     }
@@ -709,6 +717,12 @@ footer {
 
     .events h2 {
         font-size: 0.8rem;
+        margin: 20px;
+    }
+
+    .events p {
+        margin: 20px;
+        font-size: 0.7rem;
     }
 
     .open-image {
